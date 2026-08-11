@@ -1,0 +1,304 @@
+{
+  "phase": 3,
+  "status": "PASS_WITH_NOTES",
+  "source": {
+    "file": "data/raw/Findex_Microdata_2025_updateEswatini.csv",
+    "sha256": "4968eaa568df1ddf8d5fadea39f4797d1bdecc2c3f941546936a200ce4bc210c",
+    "shape": {
+      "rows": 1051,
+      "columns": 199
+    }
+  },
+  "models": {
+    "model1": {
+      "target": "account_fin",
+      "shape": {
+        "rows": 1051,
+        "columns": 17
+      },
+      "feature_count": 16,
+      "features": [
+        "female",
+        "age",
+        "educ",
+        "inc_q",
+        "emp_in",
+        "fin24c",
+        "internet_use",
+        "con1",
+        "con9",
+        "con11",
+        "con12",
+        "con14",
+        "con16",
+        "con18",
+        "con20",
+        "fin46"
+      ],
+      "core_features": [
+        "female",
+        "age",
+        "educ",
+        "inc_q",
+        "emp_in",
+        "internet_use",
+        "con1",
+        "fin46"
+      ],
+      "conditional_features": [
+        "fin24c",
+        "con9",
+        "con11",
+        "con12",
+        "con14",
+        "con16",
+        "con18",
+        "con20"
+      ],
+      "numeric_features": [
+        "age"
+      ],
+      "categorical_features": [
+        "female",
+        "educ",
+        "inc_q",
+        "emp_in",
+        "fin24c",
+        "internet_use",
+        "con1",
+        "con9",
+        "con11",
+        "con12",
+        "con14",
+        "con16",
+        "con18",
+        "con20",
+        "fin46"
+      ],
+      "target_distribution": {
+        "0": 514,
+        "1": 537
+      },
+      "unresolved_missing_cells": 0,
+      "exact_duplicate_rows_excluding_first": 35,
+      "semantic_state_counts": {
+        "routed_not_applicable": {
+          "con9": 118,
+          "con11": 118,
+          "con12": 118,
+          "con14": 118,
+          "con16": 235,
+          "con18": 118,
+          "con20": 118
+        },
+        "core_missing_or_nonresponse": {
+          "educ": 10
+        },
+        "explicit_nonresponse": {
+          "fin24c": 16,
+          "con1": 1,
+          "con9": 9,
+          "con11": 4,
+          "con12": 7,
+          "con14": 4,
+          "con16": 1,
+          "con18": 6,
+          "con20": 4,
+          "fin46": 3
+        },
+        "combined_no_dk_ref": {
+          "internet_use": 423
+        }
+      },
+      "output_file": "data/processed/model1_financial_inclusion.csv",
+      "output_sha256": "dcfb2e615179b832f9dd7746667a1b9b0a35142c5b90575fe4db4c9c71429e4e"
+    },
+    "model2": {
+      "target": "account_mob",
+      "shape": {
+        "rows": 1051,
+        "columns": 27
+      },
+      "feature_count": 26,
+      "features": [
+        "female",
+        "age",
+        "educ",
+        "inc_q",
+        "emp_in",
+        "fin24c",
+        "internet_use",
+        "con1",
+        "con9",
+        "con11",
+        "con12",
+        "con14",
+        "con16",
+        "con18",
+        "con20",
+        "con26",
+        "con27",
+        "con28",
+        "con30a",
+        "con30b",
+        "con30c",
+        "con30d",
+        "con30e",
+        "con30g",
+        "con30h",
+        "fin46"
+      ],
+      "core_features": [
+        "female",
+        "age",
+        "educ",
+        "inc_q",
+        "emp_in",
+        "internet_use",
+        "con1",
+        "fin46"
+      ],
+      "conditional_features": [
+        "fin24c",
+        "con9",
+        "con11",
+        "con12",
+        "con14",
+        "con16",
+        "con18",
+        "con20",
+        "con26",
+        "con27",
+        "con28",
+        "con30a",
+        "con30b",
+        "con30c",
+        "con30d",
+        "con30e",
+        "con30g",
+        "con30h"
+      ],
+      "numeric_features": [
+        "age"
+      ],
+      "categorical_features": [
+        "female",
+        "educ",
+        "inc_q",
+        "emp_in",
+        "fin24c",
+        "internet_use",
+        "con1",
+        "con9",
+        "con11",
+        "con12",
+        "con14",
+        "con16",
+        "con18",
+        "con20",
+        "con26",
+        "con27",
+        "con28",
+        "con30a",
+        "con30b",
+        "con30c",
+        "con30d",
+        "con30e",
+        "con30g",
+        "con30h",
+        "fin46"
+      ],
+      "target_distribution": {
+        "0": 440,
+        "1": 611
+      },
+      "unresolved_missing_cells": 0,
+      "exact_duplicate_rows_excluding_first": 9,
+      "semantic_state_counts": {
+        "routed_not_applicable": {
+          "con9": 118,
+          "con11": 118,
+          "con12": 118,
+          "con14": 118,
+          "con16": 235,
+          "con18": 118,
+          "con20": 118,
+          "con26": 423,
+          "con27": 423,
+          "con28": 501,
+          "con30a": 354,
+          "con30b": 354,
+          "con30c": 354,
+          "con30d": 354,
+          "con30e": 354,
+          "con30g": 354,
+          "con30h": 354
+        },
+        "core_missing_or_nonresponse": {
+          "educ": 10
+        },
+        "explicit_nonresponse": {
+          "fin24c": 16,
+          "con1": 1,
+          "con9": 9,
+          "con11": 4,
+          "con12": 7,
+          "con14": 4,
+          "con16": 1,
+          "con18": 6,
+          "con20": 4,
+          "con26": 8,
+          "con27": 2,
+          "con28": 7,
+          "con30a": 3,
+          "con30b": 3,
+          "con30c": 2,
+          "con30d": 3,
+          "con30e": 2,
+          "con30g": 7,
+          "con30h": 2,
+          "fin46": 3
+        },
+        "combined_no_dk_ref": {
+          "internet_use": 423
+        }
+      },
+      "output_file": "data/processed/model2_mobile_money.csv",
+      "output_sha256": "8aebdf141e73c96c8a0c520dc2cb7bc245e29e4cd1e7d6aa097b890dd97020ed"
+    }
+  },
+  "numeric_validation": {
+    "age_min": 15,
+    "age_max": 100,
+    "non_integer_age_count": 0,
+    "out_of_range_age_count": 0
+  },
+  "categorical_validation": {
+    "unexpected_code_count": 0
+  },
+  "leakage_validation": {
+    "passed": true,
+    "model1_unapproved_columns": [],
+    "model2_unapproved_columns": [],
+    "identifier_columns_present": [],
+    "metadata_columns_present": [],
+    "parallel_targets_present": []
+  },
+  "preprocessor_fitted": false,
+  "processed_data_git_ignored": true,
+  "notes": [
+    "Routed blanks are explicit categorical states, not statistical imputations.",
+    "The constructed internet_use zero category combines no, don't know, and refused.",
+    "Survey weights remain outside individual-level prediction features."
+  ],
+  "deliverable_validation": {
+    "passed": true,
+    "phases_checked": [
+      1,
+      2,
+      3
+    ],
+    "missing_files": {},
+    "checklist": "reports/phase_3/deliverable_checklist.md"
+  }
+}

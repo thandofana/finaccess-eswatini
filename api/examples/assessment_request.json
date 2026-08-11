@@ -1,0 +1,19 @@
+{
+  "female": "Female",
+  "age_group": "65+",
+  "educ": "Primary education or less",
+  "inc_q": "Income quintile 2",
+  "emp_in": "Out of the workforce",
+  "fin24c": "Yes",
+  "internet_use": "No / don't know / refused",
+  "internet_engagement_level": "No recent internet use / no-DK-ref",
+  "phone_access_tier": "Smartphone",
+  "con11": "Yes",
+  "con12": "Daily",
+  "con14": "Yes",
+  "con16": "Yes",
+  "con18": "No",
+  "con20": "No",
+  "data_purchase_pattern": "No recent internet use / skipped",
+  "fin46": "Yes"
+}

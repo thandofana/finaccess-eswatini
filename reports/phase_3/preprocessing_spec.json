@@ -1,0 +1,81 @@
+{
+  "fitted_in_phase_3": false,
+  "fit_policy": "Fit the ColumnTransformer only inside a complete estimator Pipeline, using training data or the training fold of cross-validation.",
+  "categorical_policy": "Survey categories are labelled before one-hot encoding; no ordinal numeric distance is assumed for education or income quintile.",
+  "models": {
+    "model1": {
+      "target": "account_fin",
+      "numeric_columns": [
+        "age"
+      ],
+      "categorical_columns": [
+        "female",
+        "educ",
+        "inc_q",
+        "emp_in",
+        "fin24c",
+        "internet_use",
+        "con1",
+        "con9",
+        "con11",
+        "con12",
+        "con14",
+        "con16",
+        "con18",
+        "con20",
+        "fin46"
+      ],
+      "numeric_pipeline": [
+        "median imputation safeguard",
+        "standard scaling"
+      ],
+      "categorical_pipeline": [
+        "most-frequent imputation safeguard",
+        "one-hot encoding with unknown-category tolerance"
+      ],
+      "remainder": "drop"
+    },
+    "model2": {
+      "target": "account_mob",
+      "numeric_columns": [
+        "age"
+      ],
+      "categorical_columns": [
+        "female",
+        "educ",
+        "inc_q",
+        "emp_in",
+        "fin24c",
+        "internet_use",
+        "con1",
+        "con9",
+        "con11",
+        "con12",
+        "con14",
+        "con16",
+        "con18",
+        "con20",
+        "con26",
+        "con27",
+        "con28",
+        "con30a",
+        "con30b",
+        "con30c",
+        "con30d",
+        "con30e",
+        "con30g",
+        "con30h",
+        "fin46"
+      ],
+      "numeric_pipeline": [
+        "median imputation safeguard",
+        "standard scaling"
+      ],
+      "categorical_pipeline": [
+        "most-frequent imputation safeguard",
+        "one-hot encoding with unknown-category tolerance"
+      ],
+      "remainder": "drop"
+    }
+  }
+}

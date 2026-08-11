@@ -1,0 +1,17 @@
+{
+  "phase": 13,
+  "status": "PASS_WITH_NOTES",
+  "generated_at_utc": "2026-08-12T13:21:41.156311+00:00",
+  "checks_passed": 12,
+  "checks_total": 12,
+  "notebooks_validated": 13,
+  "screenshots_validated": 4,
+  "application_url": "https://finaccess-eswatini.vercel.app",
+  "notes": [
+    "The analytical and deployment GitHub repositories remain private until the project owner explicitly approves public source visibility; the live application itself is public and requires no sign-in.",
+    "Automatic Git deployments still require Vercel GitHub App access; the validated production release uses the authenticated CLI workflow.",
+    "Vercel Services and the Python runtime remain platform dependencies to regression-test.",
+    "Raw World Bank respondent microdata remain local and are not included in either publishable repository.",
+    "This is a portfolio proof of concept, not a production financial decision engine."
+  ]
+}

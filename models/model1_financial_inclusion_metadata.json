@@ -1,0 +1,58 @@
+{
+  "artifact": "FinAccess Eswatini Model 1 complete preprocessing and estimator pipeline",
+  "target": "account_fin",
+  "positive_class_meaning": "Has an account at a financial institution",
+  "input_features": [
+    "female",
+    "age_group",
+    "educ",
+    "inc_q",
+    "emp_in",
+    "fin24c",
+    "internet_use",
+    "phone_access_tier",
+    "con11",
+    "con12",
+    "con14",
+    "con16",
+    "con18",
+    "con20",
+    "fin46"
+  ],
+  "input_matrix_sha256": "37785e0819f1d050f94d395476aacd5440e9daf6a642174f813b7c2f70ab2ccc",
+  "random_state": 42,
+  "decision_threshold": 0.5,
+  "selected_model": {
+    "primary_metric": "mean group-aware CV ROC-AUC",
+    "rule": "one-standard-error rule, then lowest predefined complexity tier and highest mean CV ROC-AUC",
+    "best_mean_cv_roc_auc": 0.7683395374564891,
+    "best_model_by_mean_auc": "gradient_boosting",
+    "best_model_standard_error": 0.010744460435841992,
+    "eligibility_cutoff": 0.7575950770206471,
+    "selected_model": "gradient_boosting",
+    "selected_model_label": "Gradient Boosting",
+    "best_parameters": {
+      "model__learning_rate": 0.03,
+      "model__max_depth": 2,
+      "model__min_samples_leaf": 5,
+      "model__n_estimators": 200
+    },
+    "selected_cv_mean_roc_auc": 0.7683395374564891,
+    "selected_cv_std_roc_auc": 0.02402534391609971,
+    "selected_cv_mean_f1": 0.7052395227443476
+  },
+  "training_rows": 840,
+  "protected_test_rows": 211,
+  "transformed_feature_count": 58,
+  "holdout_metrics": {
+    "accuracy": 0.7061611374407583,
+    "balanced_accuracy": 0.7062207838906869,
+    "precision": 0.7169811320754716,
+    "recall": 0.7037037037037037,
+    "f1": 0.7102803738317757,
+    "roc_auc": 0.7448759439050702,
+    "brier_score": 0.20422253487932412,
+    "log_loss": 0.5941902090384878
+  },
+  "model_sha256": "467e5519c022a0c716e38bae3f7b44752b4a50da6553720541d75efcb5d2b7b3"
+}

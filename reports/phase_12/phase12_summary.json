@@ -1,0 +1,17 @@
+{
+  "phase": 12,
+  "status": "PASS_WITH_NOTES",
+  "generated_at_utc": "2026-08-11T13:40:33.027284+00:00",
+  "checks_passed": 15,
+  "checks_total": 15,
+  "application_url": "https://finaccess-eswatini.vercel.app",
+  "api_url": "https://finaccess-eswatini.vercel.app/api",
+  "validated_commit": "6ac1810",
+  "notes": [
+    "Vercel Services and the Vercel Python runtime are beta features, so deployment regression checks remain important.",
+    "The Python dependency bundle was optimized by Vercel at 434.92 MB; dependency growth should be monitored.",
+    "Automatic Git deployments require granting the Vercel GitHub App access to the private web repository; the validated release was deployed with the authenticated CLI.",
+    "Serverless cold-start time can vary, although the live path no longer depends on a Render free-service wake-up.",
+    "This remains a portfolio proof of concept, not a production financial decision engine."
+  ]
+}

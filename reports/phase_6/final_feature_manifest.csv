@@ -1,0 +1,32 @@
+model,target,position,feature,label,feature_type,source_variables,target_used,leakage_risk,final_status
+model1,account_fin,1,female,Gender,direct_categorical,female,False,LOW,INCLUDE
+model1,account_fin,2,age_group,Age group,engineered_categorical,age,False,LOW,INCLUDE
+model1,account_fin,3,educ,Education level,direct_categorical,educ,False,LOW,INCLUDE
+model1,account_fin,4,inc_q,Income quintile,direct_categorical,inc_q,False,LOW,INCLUDE
+model1,account_fin,5,emp_in,Workforce status,direct_categorical,emp_in,False,LOW,INCLUDE
+model1,account_fin,6,fin24c,Natural-disaster or severe-weather exposure,direct_categorical,fin24c,False,LOW_WITH_TEMPORAL_NOTE,INCLUDE
+model1,account_fin,7,internet_use,Recent internet use,direct_categorical,internet_use,False,LOW,INCLUDE
+model1,account_fin,8,phone_access_tier,Phone access tier,engineered_categorical,con1;con9,False,LOW,INCLUDE
+model1,account_fin,9,con11,SIM registered in respondent's name,direct_categorical,con11,False,LOW,INCLUDE
+model1,account_fin,10,con12,Mobile-phone use frequency,direct_categorical,con12,False,LOW,INCLUDE
+model1,account_fin,11,con14,Read a text message,direct_categorical,con14,False,LOW,INCLUDE
+model1,account_fin,12,con16,Sent a text message,direct_categorical,con16,False,LOW,INCLUDE
+model1,account_fin,13,con18,Phone protected by PIN or password,direct_categorical,con18,False,LOW,INCLUDE
+model1,account_fin,14,con20,Rules about using own phone,direct_categorical,con20,False,LOW,INCLUDE
+model1,account_fin,15,fin46,Identity-document ownership,direct_categorical,fin46,False,LOW,INCLUDE
+model2,account_mob,1,female,Gender,direct_categorical,female,False,LOW,INCLUDE
+model2,account_mob,2,age_group,Age group,engineered_categorical,age,False,LOW,INCLUDE
+model2,account_mob,3,educ,Education level,direct_categorical,educ,False,LOW,INCLUDE
+model2,account_mob,4,inc_q,Income quintile,direct_categorical,inc_q,False,LOW,INCLUDE
+model2,account_mob,5,emp_in,Workforce status,direct_categorical,emp_in,False,LOW,INCLUDE
+model2,account_mob,6,fin24c,Natural-disaster or severe-weather exposure,direct_categorical,fin24c,False,LOW_WITH_TEMPORAL_NOTE,INCLUDE
+model2,account_mob,7,internet_engagement_level,Internet engagement level,engineered_categorical,internet_use;con26,False,LOW_WITH_TEMPORAL_NOTE,INCLUDE
+model2,account_mob,8,phone_access_tier,Phone access tier,engineered_categorical,con1;con9,False,LOW,INCLUDE
+model2,account_mob,9,con11,SIM registered in respondent's name,direct_categorical,con11,False,LOW,INCLUDE
+model2,account_mob,10,con12,Mobile-phone use frequency,direct_categorical,con12,False,LOW,INCLUDE
+model2,account_mob,11,con14,Read a text message,direct_categorical,con14,False,LOW,INCLUDE
+model2,account_mob,12,con16,Sent a text message,direct_categorical,con16,False,LOW,INCLUDE
+model2,account_mob,13,con18,Phone protected by PIN or password,direct_categorical,con18,False,LOW,INCLUDE
+model2,account_mob,14,con20,Rules about using own phone,direct_categorical,con20,False,LOW,INCLUDE
+model2,account_mob,15,data_purchase_pattern,Mobile-data purchase pattern,engineered_categorical,internet_use;con27;con28,False,LOW_WITH_TEMPORAL_NOTE,INCLUDE
+model2,account_mob,16,fin46,Identity-document ownership,direct_categorical,fin46,False,LOW,INCLUDE

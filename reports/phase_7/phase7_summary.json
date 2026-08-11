@@ -1,0 +1,191 @@
+{
+  "phase": 7,
+  "status": "PASS_WITH_NOTES",
+  "scope": "Model 1 financial-inclusion development only",
+  "source": {
+    "file": "data/processed/model1_financial_inclusion_final.csv",
+    "sha256": "37785e0819f1d050f94d395476aacd5440e9daf6a642174f813b7c2f70ab2ccc",
+    "rows": 1051,
+    "predictors": 15,
+    "target_distribution": {
+      "0": 514,
+      "1": 537
+    }
+  },
+  "split": {
+    "method": "first fold of shuffled StratifiedGroupKFold",
+    "random_state": 42,
+    "requested_test_fraction": 0.2,
+    "train_rows": 840,
+    "test_rows": 211,
+    "train_positive_rate": 0.5107142857142857,
+    "test_positive_rate": 0.5118483412322274,
+    "unique_profiles_total": 877,
+    "duplicate_rows_after_first": 174,
+    "duplicate_profile_groups": 99,
+    "conflicting_label_profile_groups": 44,
+    "respondents_in_conflicting_groups": 134,
+    "profile_overlap_count": 0,
+    "train_index_sha256": "c13d4c2f098935a6c39ad685df02c4fae6755bdc621d0d5a0d9e8f882e8bb98e",
+    "test_index_sha256": "a7725b88ad498e7872730f6e60319f94ad79e74527eb0eeeb72ce76675d35742"
+  },
+  "cross_validation": {
+    "method": "shuffled StratifiedGroupKFold on training partition",
+    "folds": 5,
+    "random_state": 43,
+    "profile_overlap_count_every_fold": 0,
+    "selection_data": "training partition only"
+  },
+  "selection": {
+    "primary_metric": "mean group-aware CV ROC-AUC",
+    "rule": "one-standard-error rule, then lowest predefined complexity tier and highest mean CV ROC-AUC",
+    "best_mean_cv_roc_auc": 0.7683395374564891,
+    "best_model_by_mean_auc": "gradient_boosting",
+    "best_model_standard_error": 0.010744460435841992,
+    "eligibility_cutoff": 0.7575950770206471,
+    "selected_model": "gradient_boosting",
+    "selected_model_label": "Gradient Boosting",
+    "best_parameters": {
+      "model__learning_rate": 0.03,
+      "model__max_depth": 2,
+      "model__min_samples_leaf": 5,
+      "model__n_estimators": 200
+    },
+    "selected_cv_mean_roc_auc": 0.7683395374564891,
+    "selected_cv_std_roc_auc": 0.02402534391609971,
+    "selected_cv_mean_f1": 0.7052395227443476
+  },
+  "holdout_evaluation": {
+    "evaluated_once_after_selection": true,
+    "decision_threshold": 0.5,
+    "metrics": {
+      "accuracy": 0.7061611374407583,
+      "balanced_accuracy": 0.7062207838906869,
+      "precision": 0.7169811320754716,
+      "recall": 0.7037037037037037,
+      "f1": 0.7102803738317757,
+      "roc_auc": 0.7448759439050702,
+      "brier_score": 0.20422253487932412,
+      "log_loss": 0.5941902090384878
+    },
+    "bootstrap_intervals": [
+      {
+        "metric": "accuracy",
+        "lower_95": 0.6445497630331753,
+        "median": 0.7061611374407583,
+        "upper_95": 0.7630331753554502,
+        "iterations": 1000,
+        "method": "stratified nonparametric bootstrap"
+      },
+      {
+        "metric": "precision",
+        "lower_95": 0.653455243483532,
+        "median": 0.7157894736842105,
+        "upper_95": 0.7812732054455446,
+        "iterations": 1000,
+        "method": "stratified nonparametric bootstrap"
+      },
+      {
+        "metric": "recall",
+        "lower_95": 0.6201388888888889,
+        "median": 0.7037037037037037,
+        "upper_95": 0.7870370370370371,
+        "iterations": 1000,
+        "method": "stratified nonparametric bootstrap"
+      },
+      {
+        "metric": "f1",
+        "lower_95": 0.6421845248398823,
+        "median": 0.7096774193548387,
+        "upper_95": 0.7706422018348624,
+        "iterations": 1000,
+        "method": "stratified nonparametric bootstrap"
+      },
+      {
+        "metric": "roc_auc",
+        "lower_95": 0.6736762855088096,
+        "median": 0.7453478964401294,
+        "upper_95": 0.8052173229054297,
+        "iterations": 1000,
+        "method": "stratified nonparametric bootstrap"
+      },
+      {
+        "metric": "brier_score",
+        "lower_95": 0.18221975585889422,
+        "median": 0.20412432495150046,
+        "upper_95": 0.2287987771312532,
+        "iterations": 1000,
+        "method": "stratified nonparametric bootstrap"
+      }
+    ],
+    "confusion": {
+      "tn": 73,
+      "fp": 30,
+      "fn": 32,
+      "tp": 76
+    }
+  },
+  "diagnostics": {
+    "train_cv_auc_gap": 0.04480275935003186,
+    "overfitting_flag": "low observed train–CV gap",
+    "holdout_minus_cv_auc": -0.023463593551418915,
+    "expected_calibration_error": 0.04752203521654331,
+    "transformed_feature_count": 58,
+    "unseen_holdout_category_count": 1,
+    "category_coverage_note": "One or more holdout categories were unseen in training and ignored by the encoder."
+  },
+  "artifact": {
+    "pipeline_file": "models/model1_financial_inclusion_pipeline.joblib",
+    "pipeline_sha256": "467e5519c022a0c716e38bae3f7b44752b4a50da6553720541d75efcb5d2b7b3",
+    "metadata_file": "models/model1_financial_inclusion_metadata.json",
+    "reload_prediction_match": true,
+    "contains_preprocessing_and_estimator": true
+  },
+  "figures": [
+    {
+      "figure": "01_model_comparison.png",
+      "format": "png",
+      "purpose": "Compare candidate models using training-fold metrics only"
+    },
+    {
+      "figure": "01_model_comparison.svg",
+      "format": "svg",
+      "purpose": "Compare candidate models using training-fold metrics only"
+    },
+    {
+      "figure": "02_holdout_evaluation.png",
+      "format": "png",
+      "purpose": "Evaluate discrimination, classification errors, and calibration on the protected holdout"
+    },
+    {
+      "figure": "02_holdout_evaluation.svg",
+      "format": "svg",
+      "purpose": "Evaluate discrimination, classification errors, and calibration on the protected holdout"
+    }
+  ],
+  "model2_trained": false,
+  "feature_importance_generated": false,
+  "shap_generated": false,
+  "limitations": [
+    "small protected holdout produces material metric uncertainty",
+    "134 respondents belong to identical predictor profiles with conflicting outcomes",
+    "fixed age bands lose within-band information",
+    "observational predictors do not support causal claims",
+    "0.50 threshold remains provisional",
+    "survey weights were not used as predictors or loss weights"
+  ],
+  "deliverable_validation": {
+    "passed": true,
+    "phases_checked": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "missing_files": {},
+    "checklist": "reports/phase_7/deliverable_checklist.md"
+  }
+}

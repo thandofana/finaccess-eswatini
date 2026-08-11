@@ -1,0 +1,66 @@
+{
+  "phase": 5,
+  "status": "PASS_WITH_NOTES",
+  "source_validation": {
+    "source_sha256": "4968eaa568df1ddf8d5fadea39f4797d1bdecc2c3f941546936a200ce4bc210c",
+    "rows": 1051,
+    "weight_count": 1051,
+    "weight_missing": 0,
+    "weight_nonpositive": 0,
+    "weight_min": 0.171572469766396,
+    "weight_max": 3.18546652438591,
+    "weight_sum": 1050.9999999951767
+  },
+  "design": {
+    "pre_specified_tests_per_outcome": 8,
+    "categorical_tests_per_outcome": 7,
+    "numeric_tests_per_outcome": 1,
+    "multiple_testing": "Benjamini-Hochberg within each outcome",
+    "alpha": 0.05,
+    "inference_weighting": "unweighted respondent counts",
+    "weighted_rates_role": "descriptive context only"
+  },
+  "result_counts": {
+    "account_fin": {
+      "tests": 8,
+      "fdr_significant": 7
+    },
+    "account_mob": {
+      "tests": 8,
+      "fdr_significant": 7
+    }
+  },
+  "assumptions": {
+    "categorical_test_count": 14,
+    "tests_passing_expected_count_rule": 14,
+    "minimum_expected_count": 36.35446685878963,
+    "expected_cells_below_5_total": 0
+  },
+  "findings": [
+    "Financial inclusion was associated after FDR adjustment with education, income quintile, workforce status, recent internet use, phone ownership, phone type, and age; gender was not associated.",
+    "Mobile-money adoption was associated after FDR adjustment with education, income quintile, workforce status, recent internet use, phone ownership, phone type, and age; gender was not associated.",
+    "The largest categorical effect for financial inclusion was income quintile (bias-corrected Cramér's V=0.270), closely followed by workforce status.",
+    "The largest categorical effect for mobile money was phone type (bias-corrected Cramér's V=0.236), followed by income quintile and recent internet use.",
+    "Included respondents were older on average for both outcomes; the age effect was small for financial inclusion (rank-biserial=0.203) and mobile money (rank-biserial=0.108)."
+  ],
+  "causal_claims_made": false,
+  "models_trained": false,
+  "limitations": [
+    "no design-corrected survey inference without strata and cluster variables",
+    "bivariate tests do not adjust for confounding",
+    "internet_use=0 combines no, don't know, and refused",
+    "effect-size labels are conventional descriptive guides"
+  ],
+  "deliverable_validation": {
+    "passed": true,
+    "phases_checked": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "missing_files": {},
+    "checklist": "reports/phase_5/deliverable_checklist.md"
+  }
+}

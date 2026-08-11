@@ -1,0 +1,88 @@
+{
+  "phase": 9,
+  "status": "PASS_WITH_NOTES",
+  "scope": "SHAP explainability for both validated model pipelines",
+  "shap_version": "0.52.0",
+  "models": {
+    "model1": {
+      "model_label": "Financial Inclusion",
+      "target": "account_fin",
+      "explainer_type": "TreeExplainer",
+      "holdout_rows_explained": 211,
+      "encoded_features": 58,
+      "source_features": 15,
+      "baseline_probability": 0.5116188986980346,
+      "top_global_features": [
+        "age_group",
+        "emp_in",
+        "inc_q",
+        "educ",
+        "internet_use"
+      ],
+      "pipeline_sha256": "467e5519c022a0c716e38bae3f7b44752b4a50da6553720541d75efcb5d2b7b3",
+      "explainer_file": "models/model1_shap_explainer.joblib",
+      "explainer_sha256": "b0907befa8bf8e62a8fe193bdbbcde73e1b306197f9c5e553233878a357a7f94"
+    },
+    "model2": {
+      "model_label": "Mobile Money Adoption",
+      "target": "account_mob",
+      "explainer_type": "LinearExplainer",
+      "holdout_rows_explained": 210,
+      "encoded_features": 72,
+      "source_features": 16,
+      "baseline_probability": 0.5122749429869524,
+      "top_global_features": [
+        "con11",
+        "age_group",
+        "internet_engagement_level",
+        "data_purchase_pattern",
+        "inc_q"
+      ],
+      "pipeline_sha256": "3df51a31fc420043b8e386c73d2a46771cafe64a619d69faf6fd5a2db12d7606",
+      "explainer_file": "models/model2_shap_explainer.joblib",
+      "explainer_sha256": "e28a9cdb90d61f5c777f3f532b07518ef4720a7d8f0ebfa04e707412ead781e7"
+    }
+  },
+  "validation": {
+    "tolerance": 1e-08,
+    "max_raw_score_error": 2.6645352591003757e-15,
+    "max_probability_error": 3.3306690738754696e-16,
+    "max_source_aggregation_error": 4.440892098500626e-16,
+    "all_explainers_reload": true,
+    "model_pipeline_hashes_unchanged": true
+  },
+  "individual_examples": {
+    "per_model": 3,
+    "selection": [
+      "lowest probability",
+      "closest to 0.50",
+      "highest probability"
+    ],
+    "factors_per_example": 5,
+    "wording_basis": "signed aggregated SHAP values, not manually invented drivers"
+  },
+  "limitations": [
+    "SHAP explains model behaviour rather than causation",
+    "attributions are relative to each explainer baseline",
+    "conceptually overlapping features can share attribution",
+    "global importance is evaluated on finite protected holdouts",
+    "the 0.50 classification threshold remains provisional"
+  ],
+  "next_phase_started": false,
+  "deliverable_validation": {
+    "passed": true,
+    "phases_checked": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "missing_files": {},
+    "checklist": "reports/phase_9/deliverable_checklist.md"
+  }
+}

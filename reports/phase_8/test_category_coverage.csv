@@ -1,0 +1,17 @@
+feature,train_category_count,test_category_count,unseen_test_category_count,unseen_test_categories
+female,2,2,0,[]
+age_group,6,6,0,[]
+educ,4,4,0,[]
+inc_q,5,5,0,[]
+emp_in,2,2,0,[]
+fin24c,3,3,0,[]
+internet_engagement_level,7,7,0,[]
+phone_access_tier,4,5,1,"[""Phone ownership nonresponse""]"
+con11,4,4,0,[]
+con12,7,7,0,[]
+con14,4,4,0,[]
+con16,4,3,0,[]
+con18,4,4,0,[]
+con20,4,3,0,[]
+data_purchase_pattern,9,7,0,[]
+fin46,3,3,0,[]

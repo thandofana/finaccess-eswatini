@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments and local configuration
+.venv/
+.tools/
+.env
+.env.*
+!.env.example
+~$*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw and generated data are local unless explicitly cleared for publication.
+data/raw/*
+!data/raw/README.md
+data/reference/*
+!data/reference/README.md
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated model artifacts and logs
+models/*
+!models/.gitkeep
+!models/model1_financial_inclusion_pipeline.joblib
+!models/model1_financial_inclusion_metadata.json
+!models/model1_shap_explainer.joblib
+!models/model2_mobile_money_pipeline.joblib
+!models/model2_mobile_money_metadata.json
+!models/model2_shap_explainer.joblib
+logs/
+tmp/
+.runtime/
+
+# The Vercel frontend/API deployment is maintained in its own Git repository.
+# Its public source URL is documented in the project README.
+frontend/

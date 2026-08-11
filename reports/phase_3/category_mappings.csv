@@ -1,0 +1,129 @@
+variable,raw_value,source_label,cleaned_label,mapping_basis,observed_count,used_by_model1,used_by_model2,cleaned_label_model1,cleaned_label_model2
+female,1,Female,Female,documented code,664,True,True,Female,Female
+female,2,Male,Male,documented code,387,True,True,Male,Male
+female,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,0,True,True,Missing or nonresponse,Missing or nonresponse
+educ,1,Primary education or less,Primary education or less,documented code,286,True,True,Primary education or less,Primary education or less
+educ,2,Secondary education,Secondary education,documented code,668,True,True,Secondary education,Secondary education
+educ,3,Tertiary education or more,Tertiary education or more,documented code,87,True,True,Tertiary education or more,Tertiary education or more
+educ,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,10,True,True,Missing or nonresponse,Missing or nonresponse
+inc_q,1,DDI range 1-5; neutral project label,Income quintile 1,documented range,183,True,True,Income quintile 1,Income quintile 1
+inc_q,2,DDI range 1-5; neutral project label,Income quintile 2,documented range,167,True,True,Income quintile 2,Income quintile 2
+inc_q,3,DDI range 1-5; neutral project label,Income quintile 3,documented range,167,True,True,Income quintile 3,Income quintile 3
+inc_q,4,DDI range 1-5; neutral project label,Income quintile 4,documented range,223,True,True,Income quintile 4,Income quintile 4
+inc_q,5,DDI range 1-5; neutral project label,Income quintile 5,documented range,311,True,True,Income quintile 5,Income quintile 5
+inc_q,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,0,True,True,Missing or nonresponse,Missing or nonresponse
+emp_in,1,In the workforce,In the workforce,documented code,578,True,True,In the workforce,In the workforce
+emp_in,2,Out of the workforce,Out of the workforce,documented code,473,True,True,Out of the workforce,Out of the workforce
+emp_in,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,0,True,True,Missing or nonresponse,Missing or nonresponse
+fin24c,1,Yes,Yes,documented code,468,True,True,Yes,Yes
+fin24c,2,No,No,documented code,567,True,True,No,No
+fin24c,3,Nonresponse,Nonresponse,documented code,16,True,True,Nonresponse,Nonresponse
+fin24c,4,Nonresponse,Nonresponse,documented code,0,True,True,Nonresponse,Nonresponse
+fin24c,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,0,True,True,Not applicable / skipped,Not applicable / skipped
+internet_use,0,No / don't know / refused,No / don't know / refused,documented code,423,True,True,No / don't know / refused,No / don't know / refused
+internet_use,1,Yes,Yes,documented code,628,True,True,Yes,Yes
+internet_use,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,0,True,True,Missing or nonresponse,Missing or nonresponse
+con1,1,Yes,Yes,documented code,933,True,True,Yes,Yes
+con1,2,No,No,documented code,117,True,True,No,No
+con1,3,Nonresponse,Nonresponse,documented code,0,True,True,Nonresponse,Nonresponse
+con1,4,Nonresponse,Nonresponse,documented code,1,True,True,Nonresponse,Nonresponse
+con1,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,0,True,True,Missing or nonresponse,Missing or nonresponse
+con9,1,A smartphone,A smartphone,documented code,582,True,True,A smartphone,A smartphone
+con9,2,A basic text phone,A basic text phone,documented code,342,True,True,A basic text phone,A basic text phone
+con9,8,Nonresponse,Nonresponse,documented code,6,True,True,Nonresponse,Nonresponse
+con9,9,Nonresponse,Nonresponse,documented code,3,True,True,Nonresponse,Nonresponse
+con9,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,118,True,True,Not applicable / skipped,Not applicable / skipped
+con11,1,Yes,Yes,documented code,811,True,True,Yes,Yes
+con11,2,No,No,documented code,118,True,True,No,No
+con11,8,Nonresponse,Nonresponse,documented code,3,True,True,Nonresponse,Nonresponse
+con11,9,Nonresponse,Nonresponse,documented code,1,True,True,Nonresponse,Nonresponse
+con11,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,118,True,True,Not applicable / skipped,Not applicable / skipped
+con12,1,Daily,Daily,documented code,802,True,True,Daily,Daily
+con12,2,Weekly,Weekly,documented code,93,True,True,Weekly,Weekly
+con12,3,Monthly,Monthly,documented code,23,True,True,Monthly,Monthly
+con12,4,Less than once a month,Less than once a month,documented code,6,True,True,Less than once a month,Less than once a month
+con12,7,Never,Never,documented code,2,True,True,Never,Never
+con12,8,Nonresponse,Nonresponse,documented code,7,True,True,Nonresponse,Nonresponse
+con12,9,Nonresponse,Nonresponse,documented code,0,True,True,Nonresponse,Nonresponse
+con12,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,118,True,True,Not applicable / skipped,Not applicable / skipped
+con14,1,Yes,Yes,documented code,816,True,True,Yes,Yes
+con14,2,No,No,documented code,113,True,True,No,No
+con14,8,Nonresponse,Nonresponse,documented code,3,True,True,Nonresponse,Nonresponse
+con14,9,Nonresponse,Nonresponse,documented code,1,True,True,Nonresponse,Nonresponse
+con14,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,118,True,True,Not applicable / skipped,Not applicable / skipped
+con16,1,Yes,Yes,documented code,681,True,True,Yes,Yes
+con16,2,No,No,documented code,134,True,True,No,No
+con16,8,Nonresponse,Nonresponse,documented code,1,True,True,Nonresponse,Nonresponse
+con16,9,Nonresponse,Nonresponse,documented code,0,True,True,Nonresponse,Nonresponse
+con16,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,235,True,True,Not applicable / skipped,Not applicable / skipped
+con18,1,Yes,Yes,documented code,523,True,True,Yes,Yes
+con18,2,No,No,documented code,404,True,True,No,No
+con18,8,Nonresponse,Nonresponse,documented code,4,True,True,Nonresponse,Nonresponse
+con18,9,Nonresponse,Nonresponse,documented code,2,True,True,Nonresponse,Nonresponse
+con18,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,118,True,True,Not applicable / skipped,Not applicable / skipped
+con20,1,Yes,Yes,documented code,83,True,True,Yes,Yes
+con20,2,No,No,documented code,846,True,True,No,No
+con20,8,Nonresponse,Nonresponse,documented code,3,True,True,Nonresponse,Nonresponse
+con20,9,Nonresponse,Nonresponse,documented code,1,True,True,Nonresponse,Nonresponse
+con20,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,118,True,True,Not applicable / skipped,Not applicable / skipped
+con26,1,Daily,Daily,documented code,429,False,True,not used,Daily
+con26,2,Weekly,Weekly,documented code,113,False,True,not used,Weekly
+con26,3,Monthly,Monthly,documented code,52,False,True,not used,Monthly
+con26,4,Less than once a month,Less than once a month,documented code,18,False,True,not used,Less than once a month
+con26,7,Never,Never,documented code,8,False,True,not used,Never
+con26,8,Nonresponse,Nonresponse,documented code,7,False,True,not used,Nonresponse
+con26,9,Nonresponse,Nonresponse,documented code,1,False,True,not used,Nonresponse
+con26,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,423,False,True,not used,Not applicable / skipped
+con27,1,Yes,Yes,documented code,550,False,True,not used,Yes
+con27,2,No,No,documented code,76,False,True,not used,No
+con27,8,Nonresponse,Nonresponse,documented code,2,False,True,not used,Nonresponse
+con27,9,Nonresponse,Nonresponse,documented code,0,False,True,not used,Nonresponse
+con27,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,423,False,True,not used,Not applicable / skipped
+con28,1,Daily,Daily,documented code,68,False,True,not used,Daily
+con28,2,Weekly,Weekly,documented code,142,False,True,not used,Weekly
+con28,3,Monthly,Monthly,documented code,317,False,True,not used,Monthly
+con28,4,Less than once a month,Less than once a month,documented code,15,False,True,not used,Less than once a month
+con28,7,Never,Never,documented code,1,False,True,not used,Never
+con28,8,Nonresponse,Nonresponse,documented code,7,False,True,not used,Nonresponse
+con28,9,Nonresponse,Nonresponse,documented code,0,False,True,not used,Nonresponse
+con28,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,501,False,True,not used,Not applicable / skipped
+con30a,1,Yes,Yes,documented code,487,False,True,not used,Yes
+con30a,2,No,No,documented code,207,False,True,not used,No
+con30a,8,Nonresponse,Nonresponse,documented code,1,False,True,not used,Nonresponse
+con30a,9,Nonresponse,Nonresponse,documented code,2,False,True,not used,Nonresponse
+con30a,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,354,False,True,not used,Not applicable / skipped
+con30b,1,Yes,Yes,documented code,494,False,True,not used,Yes
+con30b,2,No,No,documented code,200,False,True,not used,No
+con30b,8,Nonresponse,Nonresponse,documented code,0,False,True,not used,Nonresponse
+con30b,9,Nonresponse,Nonresponse,documented code,3,False,True,not used,Nonresponse
+con30b,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,354,False,True,not used,Not applicable / skipped
+con30c,1,Yes,Yes,documented code,554,False,True,not used,Yes
+con30c,2,No,No,documented code,141,False,True,not used,No
+con30c,8,Nonresponse,Nonresponse,documented code,1,False,True,not used,Nonresponse
+con30c,9,Nonresponse,Nonresponse,documented code,1,False,True,not used,Nonresponse
+con30c,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,354,False,True,not used,Not applicable / skipped
+con30d,1,Yes,Yes,documented code,454,False,True,not used,Yes
+con30d,2,No,No,documented code,240,False,True,not used,No
+con30d,8,Nonresponse,Nonresponse,documented code,2,False,True,not used,Nonresponse
+con30d,9,Nonresponse,Nonresponse,documented code,1,False,True,not used,Nonresponse
+con30d,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,354,False,True,not used,Not applicable / skipped
+con30e,1,Yes,Yes,documented code,348,False,True,not used,Yes
+con30e,2,No,No,documented code,347,False,True,not used,No
+con30e,8,Nonresponse,Nonresponse,documented code,2,False,True,not used,Nonresponse
+con30e,9,Nonresponse,Nonresponse,documented code,0,False,True,not used,Nonresponse
+con30e,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,354,False,True,not used,Not applicable / skipped
+con30g,1,Yes,Yes,documented code,159,False,True,not used,Yes
+con30g,2,No,No,documented code,531,False,True,not used,No
+con30g,8,Nonresponse,Nonresponse,documented code,6,False,True,not used,Nonresponse
+con30g,9,Nonresponse,Nonresponse,documented code,1,False,True,not used,Nonresponse
+con30g,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,354,False,True,not used,Not applicable / skipped
+con30h,1,Yes,Yes,documented code,233,False,True,not used,Yes
+con30h,2,No,No,documented code,462,False,True,not used,No
+con30h,8,Nonresponse,Nonresponse,documented code,2,False,True,not used,Nonresponse
+con30h,9,Nonresponse,Nonresponse,documented code,0,False,True,not used,Nonresponse
+con30h,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,354,False,True,not used,Not applicable / skipped
+fin46,1,Yes,Yes,documented code,922,True,True,Yes,Yes
+fin46,2,No,No,documented code,126,True,True,No,No
+fin46,3,Nonresponse,Nonresponse,documented code,1,True,True,Nonresponse,Nonresponse
+fin46,4,Nonresponse,Nonresponse,documented code,2,True,True,Nonresponse,Nonresponse
+fin46,<blank>,System missing / routed blank,model-specific; see feature tier,routing-aware missingness policy,0,True,True,Missing or nonresponse,Missing or nonresponse

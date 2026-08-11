@@ -1,0 +1,23 @@
+# Source documentation parsing (Phase 2)
+pdfplumber==0.11.10
+pypdf==6.15.0
+
+# Data cleaning and reusable preprocessing (Phase 3)
+joblib==1.5.3
+matplotlib==3.11.1
+ipykernel==7.3.0
+nbclient==0.11.0
+nbformat==5.11.0
+numpy==2.4.6
+pandas==3.0.5
+scikit-learn==1.9.0
+scipy==1.18.0
+
+# Model explainability (Phase 9)
+shap==0.52.0
+
+# Prediction API and contract testing (Phase 10)
+fastapi==0.141.1
+pydantic==2.13.4
+uvicorn==0.52.1
+httpx2==2.7.0

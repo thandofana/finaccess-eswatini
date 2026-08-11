@@ -1,0 +1,17 @@
+test_id,target,outcome,variable_label,test,p_value,effect_metric,effect_size,effect_magnitude,adjusted_p_value,significant_fdr_0_05
+account_fin:income_quintile,account_fin,Financial institution account,Household income quintile,Pearson chi-square test of independence,1.2025922113229167e-16,bias-corrected Cramer's V,0.2703711800444604,small,4.810368845291667e-16,True
+account_fin:employment,account_fin,Financial institution account,Workforce status,Pearson chi-square test of independence,5.517003490696514e-18,bias-corrected Cramer's V,0.26490912846028786,small,4.413602792557211e-17,True
+account_fin:education,account_fin,Financial institution account,Education,Pearson chi-square test of independence,1.2842031182025602e-12,bias-corrected Cramer's V,0.22523468778615663,small,3.4245416485401607e-12,True
+account_fin:age,account_fin,Financial institution account,Respondent age,Two-sided Mann-Whitney U,1.2236273145338703e-08,rank-biserial correlation,0.2029867617329304,small,1.9578037032541924e-08,True
+account_fin:internet_use,account_fin,Financial institution account,Recent internet use,Pearson chi-square test of independence,5.40462978703329e-11,bias-corrected Cramer's V,0.20005721181570754,small,1.080925957406658e-10,True
+account_fin:phone_type,account_fin,Financial institution account,Phone type,Pearson chi-square test of independence,5.051091509248489e-06,bias-corrected Cramer's V,0.14665633475932852,small,6.734788678997985e-06,True
+account_fin:phone_ownership,account_fin,Financial institution account,Mobile phone ownership,Pearson chi-square test of independence,0.0038634588646923153,bias-corrected Cramer's V,0.08368282772415095,negligible,0.00441538155964836,True
+account_fin:gender,account_fin,Financial institution account,Gender,Pearson chi-square test of independence,0.5852653313383369,bias-corrected Cramer's V,0.0,negligible,0.5852653313383369,False
+account_mob:phone_type,account_mob,Mobile money account,Phone type,Pearson chi-square test of independence,8.392813539425583e-14,bias-corrected Cramer's V,0.2364802816501726,small,6.159584507773209e-13,True
+account_mob:income_quintile,account_mob,Mobile money account,Household income quintile,Pearson chi-square test of independence,7.469680226347096e-12,bias-corrected Cramer's V,0.22686359460255007,small,1.493936045269419e-11,True
+account_mob:internet_use,account_mob,Mobile money account,Recent internet use,Pearson chi-square test of independence,1.5398961269433023e-13,bias-corrected Cramer's V,0.2257635042089329,small,6.159584507773209e-13,True
+account_mob:phone_ownership,account_mob,Mobile money account,Mobile phone ownership,Pearson chi-square test of independence,3.041954356431755e-12,bias-corrected Cramer's V,0.21315302141730713,small,8.111878283818013e-12,True
+account_mob:employment,account_mob,Mobile money account,Workforce status,Pearson chi-square test of independence,1.577417541017154e-08,bias-corrected Cramer's V,0.17169911936234164,small,2.5238680656274466e-08,True
+account_mob:education,account_mob,Mobile money account,Education,Pearson chi-square test of independence,2.5619457932174096e-06,bias-corrected Cramer's V,0.1511099507505649,small,3.4159277242898796e-06,True
+account_mob:age,account_mob,Mobile money account,Respondent age,Two-sided Mann-Whitney U,0.002776875894366585,rank-biserial correlation,0.10801220056539207,small,0.0031735724507046684,True
+account_mob:gender,account_mob,Mobile money account,Gender,Pearson chi-square test of independence,0.698992644558053,bias-corrected Cramer's V,0.0,negligible,0.698992644558053,False

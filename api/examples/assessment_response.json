@@ -1,0 +1,111 @@
+{
+  "assessment_id": "phase10-validated-example",
+  "purpose": "Estimate whether an individual profile is likely to be financially included and likely to use mobile money.",
+  "financial_inclusion": {
+    "model": "financial_inclusion",
+    "question": "Based on the characteristics provided, is this person likely to be financially included?",
+    "answer": "This person is unlikely to be financially included.",
+    "probability": 0.26937914380541234,
+    "probability_percent": 26.9,
+    "threshold": 0.5,
+    "threshold_status": "provisional",
+    "baseline_probability": 0.5116188986980346,
+    "main_factors": [
+      {
+        "feature": "educ",
+        "label": "education level",
+        "value": "Primary education or less",
+        "direction": "reduced_likelihood",
+        "explanation": "Education level (Primary education or less) reduced the prediction relative to the model baseline.",
+        "contribution_log_odds": -0.42846624804030187
+      },
+      {
+        "feature": "emp_in",
+        "label": "workforce status",
+        "value": "Out of the workforce",
+        "direction": "reduced_likelihood",
+        "explanation": "Workforce status (Out of the workforce) reduced the prediction relative to the model baseline.",
+        "contribution_log_odds": -0.3533834140979049
+      },
+      {
+        "feature": "age_group",
+        "label": "age group",
+        "value": "65+",
+        "direction": "increased_likelihood",
+        "explanation": "Age group (65+) increased the prediction relative to the model baseline.",
+        "contribution_log_odds": 0.3210900009687795
+      },
+      {
+        "feature": "internet_use",
+        "label": "recent internet use",
+        "value": "No / don't know / refused",
+        "direction": "reduced_likelihood",
+        "explanation": "Recent internet use (No / don't know / refused) reduced the prediction relative to the model baseline.",
+        "contribution_log_odds": -0.25840681700733714
+      },
+      {
+        "feature": "inc_q",
+        "label": "income quintile",
+        "value": "Income quintile 2",
+        "direction": "reduced_likelihood",
+        "explanation": "Income quintile (Income quintile 2) reduced the prediction relative to the model baseline.",
+        "contribution_log_odds": -0.22978395608940422
+      }
+    ],
+    "warnings": []
+  },
+  "mobile_money_adoption": {
+    "model": "mobile_money_adoption",
+    "question": "Based on the characteristics provided, is this person likely to use mobile money?",
+    "answer": "This person is unlikely to use mobile money.",
+    "probability": 0.3683287679678908,
+    "probability_percent": 36.8,
+    "threshold": 0.5,
+    "threshold_status": "provisional",
+    "baseline_probability": 0.5122749429869524,
+    "main_factors": [
+      {
+        "feature": "internet_engagement_level",
+        "label": "internet engagement",
+        "value": "No recent internet use / no-DK-ref",
+        "direction": "reduced_likelihood",
+        "explanation": "Internet engagement (No recent internet use / no-DK-ref) reduced the prediction relative to the model baseline.",
+        "contribution_log_odds": -0.21524814941877607
+      },
+      {
+        "feature": "educ",
+        "label": "education level",
+        "value": "Primary education or less",
+        "direction": "reduced_likelihood",
+        "explanation": "Education level (Primary education or less) reduced the prediction relative to the model baseline.",
+        "contribution_log_odds": -0.1833194131454366
+      },
+      {
+        "feature": "con11",
+        "label": "SIM registration in own name",
+        "value": "Yes",
+        "direction": "increased_likelihood",
+        "explanation": "Sim registration in own name (Yes) increased the prediction relative to the model baseline.",
+        "contribution_log_odds": 0.16890846790171604
+      },
+      {
+        "feature": "data_purchase_pattern",
+        "label": "data-purchase pattern",
+        "value": "No recent internet use / skipped",
+        "direction": "reduced_likelihood",
+        "explanation": "Data-purchase pattern (No recent internet use / skipped) reduced the prediction relative to the model baseline.",
+        "contribution_log_odds": -0.16714420289236118
+      },
+      {
+        "feature": "inc_q",
+        "label": "income quintile",
+        "value": "Income quintile 2",
+        "direction": "reduced_likelihood",
+        "explanation": "Income quintile (Income quintile 2) reduced the prediction relative to the model baseline.",
+        "contribution_log_odds": -0.16238548111998902
+      }
+    ],
+    "warnings": []
+  },
+  "disclaimer": "This proof-of-concept explains model predictions, not causation, eligibility, creditworthiness, or an official World Bank classification."
+}

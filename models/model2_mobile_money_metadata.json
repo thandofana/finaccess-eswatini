@@ -1,0 +1,57 @@
+{
+  "artifact": "FinAccess Eswatini Model 2 complete preprocessing and estimator pipeline",
+  "target": "account_mob",
+  "positive_class_meaning": "Has a mobile money account",
+  "input_features": [
+    "female",
+    "age_group",
+    "educ",
+    "inc_q",
+    "emp_in",
+    "fin24c",
+    "internet_engagement_level",
+    "phone_access_tier",
+    "con11",
+    "con12",
+    "con14",
+    "con16",
+    "con18",
+    "con20",
+    "data_purchase_pattern",
+    "fin46"
+  ],
+  "input_matrix_sha256": "92002b22ddfbfe426fb98c92d3c17b60bde46f7e4392a1f4025a802964acfc73",
+  "random_state": 84,
+  "decision_threshold": 0.5,
+  "selected_model": {
+    "primary_metric": "mean group-aware CV ROC-AUC",
+    "rule": "one-standard-error rule, then lowest predefined complexity tier and highest mean CV ROC-AUC",
+    "best_mean_cv_roc_auc": 0.7158330373573231,
+    "best_model_by_mean_auc": "random_forest",
+    "best_model_standard_error": 0.02106534953770213,
+    "eligibility_cutoff": 0.694767687819621,
+    "selected_model": "logistic_regression",
+    "selected_model_label": "Logistic Regression",
+    "best_parameters": {
+      "model__C": 0.05,
+      "model__class_weight": "balanced"
+    },
+    "selected_cv_mean_roc_auc": 0.7096561993462986,
+    "selected_cv_std_roc_auc": 0.042523090296173696,
+    "selected_cv_mean_f1": 0.700078209447593
+  },
+  "training_rows": 841,
+  "protected_test_rows": 210,
+  "transformed_feature_count": 72,
+  "holdout_metrics": {
+    "accuracy": 0.6761904761904762,
+    "balanced_accuracy": 0.6674739195230999,
+    "precision": 0.7213114754098361,
+    "recall": 0.7213114754098361,
+    "f1": 0.7213114754098361,
+    "roc_auc": 0.725596125186289,
+    "brier_score": 0.2053321242716968,
+    "log_loss": 0.596444104124013
+  },
+  "model_sha256": "3df51a31fc420043b8e386c73d2a46771cafe64a619d69faf6fd5a2db12d7606"
+}

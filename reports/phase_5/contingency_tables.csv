@@ -1,0 +1,77 @@
+target,outcome,dimension,dimension_label,category,outcome_value,observed_count,expected_count,category_n,category_weight_sum,category_weighted_positive_rate
+account_fin,Financial institution account,gender,Gender,Female,0,329,324.7345385347288,664,594.9441426236771,0.416322258202006
+account_fin,Financial institution account,gender,Gender,Female,1,335,339.2654614652712,664,594.9441426236771,0.416322258202006
+account_fin,Financial institution account,gender,Gender,Male,0,185,189.26546146527116,387,456.05585737149966,0.4509686621904627
+account_fin,Financial institution account,gender,Gender,Male,1,202,197.73453853472884,387,456.05585737149966,0.4509686621904627
+account_fin,Financial institution account,education,Education,Primary education or less,0,177,139.84053794428434,286,479.4779415646063,0.3678642845375561
+account_fin,Financial institution account,education,Education,Primary education or less,1,109,146.15946205571566,286,479.4779415646063,0.3678642845375561
+account_fin,Financial institution account,education,Education,Secondary education,0,317,326.6205571565802,668,523.816380848155,0.46055120041101055
+account_fin,Financial institution account,education,Education,Secondary education,1,351,341.3794428434198,668,523.816380848155,0.46055120041101055
+account_fin,Financial institution account,education,Education,Tertiary education or more,0,15,42.538904899135446,87,37.60600289248769,0.8236784950324699
+account_fin,Financial institution account,education,Education,Tertiary education or more,1,72,44.461095100864554,87,37.60600289248769,0.8236784950324699
+account_fin,Financial institution account,income_quintile,Household income quintile,Income quintile 1,0,114,89.49762131303521,183,210.56002566390913,0.3408639545130071
+account_fin,Financial institution account,income_quintile,Household income quintile,Income quintile 1,1,69,93.50237868696479,183,210.56002566390913,0.3408639545130071
+account_fin,Financial institution account,income_quintile,Household income quintile,Income quintile 2,0,98,81.67269267364415,167,210.19857112931308,0.37027105231826424
+account_fin,Financial institution account,income_quintile,Household income quintile,Income quintile 2,1,69,85.32730732635585,167,210.19857112931308,0.37027105231826424
+account_fin,Financial institution account,income_quintile,Household income quintile,Income quintile 3,0,105,81.67269267364415,167,207.8411473483573,0.3357433490179753
+account_fin,Financial institution account,income_quintile,Household income quintile,Income quintile 3,1,62,85.32730732635585,167,207.8411473483573,0.3357433490179753
+account_fin,Financial institution account,income_quintile,Household income quintile,Income quintile 4,0,106,109.05994291151285,223,212.38148817867653,0.4586146506429279
+account_fin,Financial institution account,income_quintile,Household income quintile,Income quintile 4,1,117,113.94005708848715,223,212.38148817867653,0.4586146506429279
+account_fin,Financial institution account,income_quintile,Household income quintile,Income quintile 5,0,91,152.09705042816364,311,210.01876767492087,0.6502755746044319
+account_fin,Financial institution account,income_quintile,Household income quintile,Income quintile 5,1,220,158.90294957183636,311,210.01876767492087,0.6502755746044319
+account_fin,Financial institution account,employment,Workforce status,In the workforce,0,213,282.6755470980019,578,522.7695035851639,0.557689716339863
+account_fin,Financial institution account,employment,Workforce status,In the workforce,1,365,295.3244529019981,578,522.7695035851639,0.557689716339863
+account_fin,Financial institution account,employment,Workforce status,Out of the workforce,0,301,231.3244529019981,473,528.2304964100128,0.3063287973304661
+account_fin,Financial institution account,employment,Workforce status,Out of the workforce,1,172,241.6755470980019,473,528.2304964100128,0.3063287973304661
+account_fin,Financial institution account,internet_use,Recent internet use,No / don't know / refused,0,259,206.87155090390104,423,508.8520274287089,0.3254108515228244
+account_fin,Financial institution account,internet_use,Recent internet use,No / don't know / refused,1,164,216.12844909609896,423,508.8520274287089,0.3254108515228244
+account_fin,Financial institution account,internet_use,Recent internet use,Yes,0,255,307.12844909609896,628,542.147972566468,0.5307949708584822
+account_fin,Financial institution account,internet_use,Recent internet use,Yes,1,373,320.87155090390104,628,542.147972566468,0.5307949708584822
+account_fin,Financial institution account,phone_ownership,Mobile phone ownership,No,0,72,57.27428571428572,117,144.88149393032973,0.2948822267078152
+account_fin,Financial institution account,phone_ownership,Mobile phone ownership,No,1,45,59.72571428571428,117,144.88149393032973,0.2948822267078152
+account_fin,Financial institution account,phone_ownership,Mobile phone ownership,Yes,0,442,456.7257142857143,933,905.8753312723943,0.4530305907947384
+account_fin,Financial institution account,phone_ownership,Mobile phone ownership,Yes,1,491,476.2742857142857,933,905.8753312723943,0.4530305907947384
+account_fin,Financial institution account,phone_type,Phone type,A basic text phone,0,193,168.04606525911709,342,381.1445081234025,0.41508172319946773
+account_fin,Financial institution account,phone_type,Phone type,A basic text phone,1,149,173.95393474088291,342,381.1445081234025,0.41508172319946773
+account_fin,Financial institution account,phone_type,Phone type,A smartphone,0,247,285.97312859884835,582,515.0353834469923,0.47981296640744003
+account_fin,Financial institution account,phone_type,Phone type,A smartphone,1,335,296.02687140115165,582,515.0353834469923,0.47981296640744003
+account_fin,Financial institution account,phone_type,Phone type,Not applicable / skipped,0,72,57.98080614203455,118,145.12466872278247,0.29606374098573984
+account_fin,Financial institution account,phone_type,Phone type,Not applicable / skipped,1,46,60.01919385796545,118,145.12466872278247,0.29606374098573984
+account_mob,Mobile money account,gender,Gender,Female,0,275,277.9828734538535,664,594.9441426236771,0.4993922924473223
+account_mob,Mobile money account,gender,Gender,Female,1,389,386.0171265461465,664,594.9441426236771,0.4993922924473223
+account_mob,Mobile money account,gender,Gender,Male,0,165,162.01712654614653,387,456.05585737149966,0.5101703672412671
+account_mob,Mobile money account,gender,Gender,Male,1,222,224.98287345385347,387,456.05585737149966,0.5101703672412671
+account_mob,Mobile money account,education,Education,Primary education or less,0,154,119.51008645533142,286,479.4779415646063,0.4326710488727568
+account_mob,Mobile money account,education,Education,Primary education or less,1,132,166.48991354466858,286,479.4779415646063,0.4326710488727568
+account_mob,Mobile money account,education,Education,Secondary education,0,255,279.13544668587895,668,523.816380848155,0.5559299665922544
+account_mob,Mobile money account,education,Education,Secondary education,1,413,388.86455331412105,668,523.816380848155,0.5559299665922544
+account_mob,Mobile money account,education,Education,Tertiary education or more,0,26,36.35446685878963,87,37.60600289248769,0.6866516184787753
+account_mob,Mobile money account,education,Education,Tertiary education or more,1,61,50.64553314121037,87,37.60600289248769,0.6866516184787753
+account_mob,Mobile money account,income_quintile,Household income quintile,Income quintile 1,0,111,76.6127497621313,183,210.56002566390913,0.32404971919171666
+account_mob,Mobile money account,income_quintile,Household income quintile,Income quintile 1,1,72,106.3872502378687,183,210.56002566390913,0.32404971919171666
+account_mob,Mobile money account,income_quintile,Household income quintile,Income quintile 2,0,86,69.91436726926736,167,210.19857112931308,0.43976474336321625
+account_mob,Mobile money account,income_quintile,Household income quintile,Income quintile 2,1,81,97.08563273073264,167,210.19857112931308,0.43976474336321625
+account_mob,Mobile money account,income_quintile,Household income quintile,Income quintile 3,0,75,69.91436726926736,167,207.8411473483573,0.49933686132699867
+account_mob,Mobile money account,income_quintile,Household income quintile,Income quintile 3,1,92,97.08563273073264,167,207.8411473483573,0.49933686132699867
+account_mob,Mobile money account,income_quintile,Household income quintile,Income quintile 4,0,75,93.35870599429116,223,212.38148817867653,0.6471504030256828
+account_mob,Mobile money account,income_quintile,Household income quintile,Income quintile 4,1,148,129.64129400570886,223,212.38148817867653,0.6471504030256828
+account_mob,Mobile money account,income_quintile,Household income quintile,Income quintile 5,0,93,130.1998097050428,311,210.01876767492087,0.6089044098177572
+account_mob,Mobile money account,income_quintile,Household income quintile,Income quintile 5,1,218,180.8001902949572,311,210.01876767492087,0.6089044098177572
+account_mob,Mobile money account,employment,Workforce status,In the workforce,0,197,241.9790675547098,578,522.7695035851639,0.5789188721596749
+account_mob,Mobile money account,employment,Workforce status,In the workforce,1,381,336.0209324452902,578,522.7695035851639,0.5789188721596749
+account_mob,Mobile money account,employment,Workforce status,Out of the workforce,0,243,198.0209324452902,473,528.2304964100128,0.4299932957853965
+account_mob,Mobile money account,employment,Workforce status,Out of the workforce,1,230,274.9790675547098,473,528.2304964100128,0.4299932957853965
+account_mob,Mobile money account,internet_use,Recent internet use,No / don't know / refused,0,235,177.08848715509038,423,508.8520274287089,0.39672900415571966
+account_mob,Mobile money account,internet_use,Recent internet use,No / don't know / refused,1,188,245.91151284490962,423,508.8520274287089,0.39672900415571966
+account_mob,Mobile money account,internet_use,Recent internet use,Yes,0,205,262.9115128449096,628,542.147972566468,0.6048170646918394
+account_mob,Mobile money account,internet_use,Recent internet use,Yes,1,423,365.0884871550904,628,542.147972566468,0.6048170646918394
+account_mob,Mobile money account,phone_ownership,Mobile phone ownership,No,0,84,48.917142857142856,117,144.88149393032973,0.2038355957806976
+account_mob,Mobile money account,phone_ownership,Mobile phone ownership,No,1,33,68.08285714285714,117,144.88149393032973,0.2038355957806976
+account_mob,Mobile money account,phone_ownership,Mobile phone ownership,Yes,0,355,390.08285714285716,933,905.8753312723943,0.5522224533536669
+account_mob,Mobile money account,phone_ownership,Mobile phone ownership,Yes,1,578,542.9171428571428,933,905.8753312723943,0.5522224533536669
+account_mob,Mobile money account,phone_type,Phone type,A basic text phone,0,154,143.4299424184261,342,381.1445081234025,0.5064369370655339
+account_mob,Mobile money account,phone_type,Phone type,A basic text phone,1,188,198.5700575815739,342,381.1445081234025,0.5064369370655339
+account_mob,Mobile money account,phone_type,Phone type,A smartphone,0,198,244.08253358925143,582,515.0353834469923,0.5857403514660235
+account_mob,Mobile money account,phone_type,Phone type,A smartphone,1,384,337.91746641074855,582,515.0353834469923,0.5857403514660235
+account_mob,Mobile money account,phone_type,Phone type,Not applicable / skipped,0,85,49.48752399232246,118,145.12466872278247,0.2034940433820965
+account_mob,Mobile money account,phone_type,Phone type,Not applicable / skipped,1,33,68.51247600767755,118,145.12466872278247,0.2034940433820965

@@ -1,0 +1,5 @@
+target,outcome,outcome_value,n,minimum_age,q1_age,median_age,mean_age,q3_age,maximum_age
+account_fin,Financial institution account,0,514,15.0,21.0,30.0,34.95719844357976,44.0,100.0
+account_fin,Financial institution account,1,537,15.0,28.0,36.0,39.042830540037244,47.0,100.0
+account_mob,Mobile money account,0,440,15.0,21.0,32.0,36.143181818181816,47.0,99.0
+account_mob,Mobile money account,1,611,15.0,26.0,34.0,37.69394435351882,45.0,100.0

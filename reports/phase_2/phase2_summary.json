@@ -1,0 +1,69 @@
+{
+  "phase": 2,
+  "reference_id": "SWZ_2024_FINDEX_v02_M",
+  "doi": "https://doi.org/10.48529/5rsc-p773",
+  "catalog_url": "https://microdata.worldbank.org/catalog/7900",
+  "related_materials_url": "https://microdata.worldbank.org/catalog/7900/related-materials",
+  "variable_count": 199,
+  "category_counts": {
+    "DEMOGRAPHIC": 3,
+    "DIGITAL": 53,
+    "FINANCIAL": 114,
+    "IDENTIFIER": 1,
+    "IDENTITY": 16,
+    "METADATA": 6,
+    "SOCIOECONOMIC": 4,
+    "TARGET": 2
+  },
+  "model1_status_counts": {
+    "CANDIDATE_CONDITIONAL": 8,
+    "CANDIDATE_CORE": 8,
+    "EXCLUDE_ALL_MISSING": 14,
+    "EXCLUDE_CONCEPTUAL": 2,
+    "EXCLUDE_DIRECT_LEAKAGE": 8,
+    "EXCLUDE_HIGH_MISSING": 92,
+    "EXCLUDE_IDENTIFIER": 1,
+    "EXCLUDE_METADATA": 6,
+    "EXCLUDE_MODEL_SCOPE": 10,
+    "EXCLUDE_NO_VARIANCE": 1,
+    "EXCLUDE_PARALLEL_OUTCOME": 1,
+    "EXCLUDE_POST_OUTCOME": 45,
+    "EXCLUDE_REDUNDANT": 2,
+    "TARGET": 1
+  },
+  "model2_status_counts": {
+    "CANDIDATE_CONDITIONAL": 18,
+    "CANDIDATE_CORE": 8,
+    "EXCLUDE_ALL_MISSING": 14,
+    "EXCLUDE_CONCEPTUAL": 2,
+    "EXCLUDE_DIRECT_LEAKAGE": 16,
+    "EXCLUDE_HIGH_MISSING": 92,
+    "EXCLUDE_IDENTIFIER": 1,
+    "EXCLUDE_METADATA": 6,
+    "EXCLUDE_NO_VARIANCE": 1,
+    "EXCLUDE_PARALLEL_OUTCOME": 1,
+    "EXCLUDE_POST_OUTCOME": 37,
+    "EXCLUDE_REDUNDANT": 2,
+    "TARGET": 1
+  },
+  "model1_candidate_count": 16,
+  "model2_candidate_count": 26,
+  "high_missing_count": 107,
+  "all_missing_count": 14,
+  "source_hashes": {
+    "raw_csv_sha256": "4968eaa568df1ddf8d5fadea39f4797d1bdecc2c3f941546936a200ce4bc210c",
+    "ddi_xml_sha256": "5dde12f66f386259c4d8afd9c5666c34a6d42177aabdd836e745b76aed343764",
+    "codebook_pdf_sha256": "4bb9a71f5dd35c4887a3980b4fc27062f710c91589df38632cd318615fd41377"
+  },
+  "target_distributions": {
+    "account_fin": {
+      "0": 514,
+      "1": 537
+    },
+    "account_mob": {
+      "0": 440,
+      "1": 611
+    }
+  },
+  "scope_note": "No cleaning, preprocessing, feature engineering, splitting, statistical testing, or modelling was performed."
+}

@@ -1,0 +1,131 @@
+encoded_index,encoded_feature,source_feature,feature_label,encoded_category,model,model_label,mean_abs_shap_log_odds,mean_signed_shap_log_odds,rank
+0,categorical__female_Female,female,gender,Female,model1,Financial Inclusion,0.013077598758009668,0.0006871228761263284,20
+1,categorical__female_Male,female,gender,Male,model1,Financial Inclusion,0.007749912833972875,0.0003257680440811881,23
+2,categorical__age_group_15–24,age_group,age group,15–24,model1,Financial Inclusion,0.32418746560249345,-0.008164020798693208,1
+3,categorical__age_group_25–34,age_group,age group,25–34,model1,Financial Inclusion,0.0024341040393928643,-0.0006138365559660685,28
+4,categorical__age_group_35–44,age_group,age group,35–44,model1,Financial Inclusion,0.0,0.0,32
+5,categorical__age_group_45–54,age_group,age group,45–54,model1,Financial Inclusion,0.0,0.0,33
+6,categorical__age_group_55–64,age_group,age group,55–64,model1,Financial Inclusion,0.014876613405730384,-0.0028076869190902898,18
+7,categorical__age_group_65+,age_group,age group,65+,model1,Financial Inclusion,0.038614243833188885,-0.002257509781734399,13
+8,categorical__educ_Missing or nonresponse,educ,education level,Missing or nonresponse,model1,Financial Inclusion,0.0,0.0,34
+9,categorical__educ_Primary education or less,educ,education level,Primary education or less,model1,Financial Inclusion,0.1842647770262791,-0.018095718985479528,3
+10,categorical__educ_Secondary education,educ,education level,Secondary education,model1,Financial Inclusion,0.0,0.0,35
+11,categorical__educ_Tertiary education or more,educ,education level,Tertiary education or more,model1,Financial Inclusion,0.10001299072084663,0.01794092380062347,8
+12,categorical__inc_q_Income quintile 1,inc_q,income quintile,Income quintile 1,model1,Financial Inclusion,0.0,0.0,36
+13,categorical__inc_q_Income quintile 2,inc_q,income quintile,Income quintile 2,model1,Financial Inclusion,0.0,0.0,37
+14,categorical__inc_q_Income quintile 3,inc_q,income quintile,Income quintile 3,model1,Financial Inclusion,0.06225275953290194,0.01644755769840198,11
+15,categorical__inc_q_Income quintile 4,inc_q,income quintile,Income quintile 4,model1,Financial Inclusion,0.0,0.0,38
+16,categorical__inc_q_Income quintile 5,inc_q,income quintile,Income quintile 5,model1,Financial Inclusion,0.2536418406881689,0.03458972384549612,2
+17,categorical__emp_in_In the workforce,emp_in,workforce status,In the workforce,model1,Financial Inclusion,0.16647907158634645,-0.004662534675312843,4
+18,categorical__emp_in_Out of the workforce,emp_in,workforce status,Out of the workforce,model1,Financial Inclusion,0.15373828014936047,-0.0059077211989633375,5
+19,categorical__fin24c_No,fin24c,natural-disaster or severe-weather experience,No,model1,Financial Inclusion,0.0,0.0,39
+20,categorical__fin24c_Nonresponse,fin24c,natural-disaster or severe-weather experience,Nonresponse,model1,Financial Inclusion,0.023698960012490583,0.00575030467685353,16
+21,categorical__fin24c_Yes,fin24c,natural-disaster or severe-weather experience,Yes,model1,Financial Inclusion,0.0,0.0,40
+22,categorical__internet_use_No / don't know / refused,internet_use,recent internet use,No / don't know / refused,model1,Financial Inclusion,0.12760184696860444,0.010677107728997404,6
+23,categorical__internet_use_Yes,internet_use,recent internet use,Yes,model1,Financial Inclusion,0.07509623468905924,0.004032263116136261,10
+24,categorical__phone_access_tier_Basic text phone,phone_access_tier,phone access tier,Basic text phone,model1,Financial Inclusion,0.0,0.0,41
+25,categorical__phone_access_tier_No personal mobile phone,phone_access_tier,phone access tier,No personal mobile phone,model1,Financial Inclusion,0.0,0.0,42
+26,categorical__phone_access_tier_Phone ownership nonresponse,phone_access_tier,phone access tier,Phone ownership nonresponse,model1,Financial Inclusion,0.0,0.0,43
+27,categorical__phone_access_tier_Phone type nonresponse,phone_access_tier,phone access tier,Phone type nonresponse,model1,Financial Inclusion,0.009706638468235723,-0.002700375626075264,21
+28,categorical__phone_access_tier_Smartphone,phone_access_tier,phone access tier,Smartphone,model1,Financial Inclusion,0.004546922039506617,-0.00011330964931537092,27
+29,categorical__con11_No,con11,SIM registration in own name,No,model1,Financial Inclusion,0.12331248034058519,0.0007949774890622882,7
+30,categorical__con11_Nonresponse,con11,SIM registration in own name,Nonresponse,model1,Financial Inclusion,0.0,0.0,44
+31,categorical__con11_Not applicable / skipped,con11,SIM registration in own name,Not applicable / skipped,model1,Financial Inclusion,0.0,0.0,45
+32,categorical__con11_Yes,con11,SIM registration in own name,Yes,model1,Financial Inclusion,0.008408428226830831,0.0003040426038893391,22
+33,categorical__con12_Daily,con12,mobile-phone use frequency,Daily,model1,Financial Inclusion,0.0,0.0,46
+34,categorical__con12_Less than once a month,con12,mobile-phone use frequency,Less than once a month,model1,Financial Inclusion,0.0,0.0,47
+35,categorical__con12_Monthly,con12,mobile-phone use frequency,Monthly,model1,Financial Inclusion,0.0,0.0,48
+36,categorical__con12_Nonresponse,con12,mobile-phone use frequency,Nonresponse,model1,Financial Inclusion,0.000543350504147784,0.000543350504147784,31
+37,categorical__con12_Not applicable / skipped,con12,mobile-phone use frequency,Not applicable / skipped,model1,Financial Inclusion,0.0,0.0,49
+38,categorical__con12_Weekly,con12,mobile-phone use frequency,Weekly,model1,Financial Inclusion,0.007300143196136562,-0.005159438505436087,24
+39,categorical__con14_No,con14,ability to read a text message,No,model1,Financial Inclusion,0.0,0.0,50
+40,categorical__con14_Nonresponse,con14,ability to read a text message,Nonresponse,model1,Financial Inclusion,0.0,0.0,51
+41,categorical__con14_Not applicable / skipped,con14,ability to read a text message,Not applicable / skipped,model1,Financial Inclusion,0.0,0.0,52
+42,categorical__con14_Yes,con14,ability to read a text message,Yes,model1,Financial Inclusion,0.0,0.0,53
+43,categorical__con16_No,con16,ability to send a text message,No,model1,Financial Inclusion,0.02084371277808089,-0.002065561957653639,17
+44,categorical__con16_Nonresponse,con16,ability to send a text message,Nonresponse,model1,Financial Inclusion,0.0,0.0,54
+45,categorical__con16_Not applicable / skipped,con16,ability to send a text message,Not applicable / skipped,model1,Financial Inclusion,0.0,0.0,55
+46,categorical__con16_Yes,con16,ability to send a text message,Yes,model1,Financial Inclusion,0.006667277070903457,0.0008978526455017228,25
+47,categorical__con18_No,con18,phone PIN or password,No,model1,Financial Inclusion,0.0897935541357416,-0.004888707361124539,9
+48,categorical__con18_Nonresponse,con18,phone PIN or password,Nonresponse,model1,Financial Inclusion,0.0018427841272795743,0.0018427841272795743,29
+49,categorical__con18_Not applicable / skipped,con18,phone PIN or password,Not applicable / skipped,model1,Financial Inclusion,0.0,0.0,56
+50,categorical__con18_Yes,con18,phone PIN or password,Yes,model1,Financial Inclusion,0.02844571741941526,0.0012846233064998326,14
+51,categorical__con20_No,con20,rules imposed on own-phone use,No,model1,Financial Inclusion,0.05871658019900718,0.011068654205652667,12
+52,categorical__con20_Nonresponse,con20,rules imposed on own-phone use,Nonresponse,model1,Financial Inclusion,0.0,0.0,57
+53,categorical__con20_Not applicable / skipped,con20,rules imposed on own-phone use,Not applicable / skipped,model1,Financial Inclusion,0.004889188117833073,0.0005943293313061525,26
+54,categorical__con20_Yes,con20,rules imposed on own-phone use,Yes,model1,Financial Inclusion,0.0018029086608015532,0.00028484353416796746,30
+55,categorical__fin46_No,fin46,ID ownership,No,model1,Financial Inclusion,0.01401091488662476,0.003388368093932896,19
+56,categorical__fin46_Nonresponse,fin46,ID ownership,Nonresponse,model1,Financial Inclusion,0.0,0.0,58
+57,categorical__fin46_Yes,fin46,ID ownership,Yes,model1,Financial Inclusion,0.02610112303276762,0.004258960994448371,15
+0,categorical__female_Female,female,gender,Female,model2,Mobile Money Adoption,0.0019887427763888342,-0.0001425705187079261,53
+1,categorical__female_Male,female,gender,Male,model2,Mobile Money Adoption,0.034977838656350964,-0.002507518146501169,21
+2,categorical__age_group_15–24,age_group,age group,15–24,model2,Mobile Money Adoption,0.12716528258141716,0.006313332434050664,2
+3,categorical__age_group_25–34,age_group,age group,25–34,model2,Mobile Money Adoption,0.10947342166576318,0.01820498703550263,5
+4,categorical__age_group_35–44,age_group,age group,35–44,model2,Mobile Money Adoption,0.015328639095581083,1.1533964706984713e-05,34
+5,categorical__age_group_45–54,age_group,age group,45–54,model2,Mobile Money Adoption,0.0214021908786889,0.0013086538492770123,30
+6,categorical__age_group_55–64,age_group,age group,55–64,model2,Mobile Money Adoption,0.008859111513605791,-0.001129557376743741,45
+7,categorical__age_group_65+,age_group,age group,65+,model2,Mobile Money Adoption,0.002775494523788412,-0.00039622862747365457,51
+8,categorical__educ_Missing or nonresponse,educ,education level,Missing or nonresponse,model2,Mobile Money Adoption,0.00024466763830286294,-0.00011249578474414786,59
+9,categorical__educ_Primary education or less,educ,education level,Primary education or less,model2,Mobile Money Adoption,0.07250453205940699,0.0034699901993167337,9
+10,categorical__educ_Secondary education,educ,education level,Secondary education,model2,Mobile Money Adoption,0.03228999347539286,0.002742131161688464,22
+11,categorical__educ_Tertiary education or more,educ,education level,Tertiary education or more,model2,Mobile Money Adoption,0.007374646787685724,-0.0017355357925599323,47
+12,categorical__inc_q_Income quintile 1,inc_q,income quintile,Income quintile 1,model2,Mobile Money Adoption,0.09082364718083961,-0.0008142822035517414,7
+13,categorical__inc_q_Income quintile 2,inc_q,income quintile,Income quintile 2,model2,Mobile Money Adoption,0.03799552125324983,0.0011719265488862169,20
+14,categorical__inc_q_Income quintile 3,inc_q,income quintile,Income quintile 3,model2,Mobile Money Adoption,0.013408011929293502,0.00018750884416704055,41
+15,categorical__inc_q_Income quintile 4,inc_q,income quintile,Income quintile 4,model2,Mobile Money Adoption,0.04528092433032019,-0.002930324801756223,15
+16,categorical__inc_q_Income quintile 5,inc_q,income quintile,Income quintile 5,model2,Mobile Money Adoption,0.0846185405992224,0.004599721248397742,8
+17,categorical__emp_in_In the workforce,emp_in,workforce status,In the workforce,model2,Mobile Money Adoption,0.031502921467584384,0.000952183904666557,24
+18,categorical__emp_in_Out of the workforce,emp_in,workforce status,Out of the workforce,model2,Mobile Money Adoption,0.06611769575209384,0.001998424361168031,10
+19,categorical__fin24c_No,fin24c,natural-disaster or severe-weather experience,No,model2,Mobile Money Adoption,0.00932935793447994,0.0017609143101849716,44
+20,categorical__fin24c_Nonresponse,fin24c,natural-disaster or severe-weather experience,Nonresponse,model2,Mobile Money Adoption,0.00019798427948991988,5.4547574156443274e-05,62
+21,categorical__fin24c_Yes,fin24c,natural-disaster or severe-weather experience,Yes,model2,Mobile Money Adoption,0.039858760648620505,0.007014041776594491,17
+22,categorical__internet_engagement_level_Daily internet use,internet_engagement_level,internet engagement,Daily internet use,model2,Mobile Money Adoption,0.047149954254008586,0.0013208288392924478,13
+23,categorical__internet_engagement_level_Less than monthly internet use,internet_engagement_level,internet engagement,Less than monthly internet use,model2,Mobile Money Adoption,0.0004781104162923977,-0.00010363157443516329,57
+24,categorical__internet_engagement_level_Monthly internet use,internet_engagement_level,internet engagement,Monthly internet use,model2,Mobile Money Adoption,6.831940714966733e-05,6.307403086613765e-06,67
+25,categorical__internet_engagement_level_No recent internet use / no-DK-ref,internet_engagement_level,internet engagement,No recent internet use / no-DK-ref,model2,Mobile Money Adoption,0.126582896062467,-0.0007520070879541836,3
+26,categorical__internet_engagement_level_Recent internet use; frequency nonresponse,internet_engagement_level,internet engagement,Recent internet use; frequency nonresponse,model2,Mobile Money Adoption,0.0006696663482374811,0.00018337837746685976,54
+27,categorical__internet_engagement_level_Recent-use indicator; frequency reported never,internet_engagement_level,internet engagement,Recent-use indicator; frequency reported never,model2,Mobile Money Adoption,0.0002297377084066229,-3.3224576061546784e-05,61
+28,categorical__internet_engagement_level_Weekly internet use,internet_engagement_level,internet engagement,Weekly internet use,model2,Mobile Money Adoption,0.032191504451566835,-0.002673581889786897,23
+29,categorical__phone_access_tier_Basic text phone,phone_access_tier,phone access tier,Basic text phone,model2,Mobile Money Adoption,0.03977103450395919,0.0003578548383634874,18
+30,categorical__phone_access_tier_No personal mobile phone,phone_access_tier,phone access tier,No personal mobile phone,model2,Mobile Money Adoption,0.014960212962500542,-0.0002775596958149015,40
+31,categorical__phone_access_tier_Phone type nonresponse,phone_access_tier,phone access tier,Phone type nonresponse,model2,Mobile Money Adoption,0.00048671889646947523,3.30295794018976e-05,56
+32,categorical__phone_access_tier_Smartphone,phone_access_tier,phone access tier,Smartphone,model2,Mobile Money Adoption,0.05596388261158579,0.0015397267188504932,12
+33,categorical__con11_No,con11,SIM registration in own name,No,model2,Mobile Money Adoption,0.09581918850822219,-0.00398968630607974,6
+34,categorical__con11_Nonresponse,con11,SIM registration in own name,Nonresponse,model2,Mobile Money Adoption,5.366199563840179e-05,-7.728792545872286e-06,69
+35,categorical__con11_Not applicable / skipped,con11,SIM registration in own name,Not applicable / skipped,model2,Mobile Money Adoption,0.015238197061520055,-0.0006344827908918642,35
+36,categorical__con11_Yes,con11,SIM registration in own name,Yes,model2,Mobile Money Adoption,0.1730144032160669,-0.008748702347355183,1
+37,categorical__con12_Daily,con12,mobile-phone use frequency,Daily,model2,Mobile Money Adoption,0.0457946045147303,-0.0013329803343151774,14
+38,categorical__con12_Less than once a month,con12,mobile-phone use frequency,Less than once a month,model2,Mobile Money Adoption,9.845550779327895e-05,1.0939500865919982e-05,65
+39,categorical__con12_Monthly,con12,mobile-phone use frequency,Monthly,model2,Mobile Money Adoption,0.0022472016296799387,-0.00019532743962505326,52
+40,categorical__con12_Never,con12,mobile-phone use frequency,Never,model2,Mobile Money Adoption,0.0001764815301469166,-0.00010615809868703918,63
+41,categorical__con12_Nonresponse,con12,mobile-phone use frequency,Nonresponse,model2,Mobile Money Adoption,0.00032259492666782336,6.470429596640393e-05,58
+42,categorical__con12_Not applicable / skipped,con12,mobile-phone use frequency,Not applicable / skipped,model2,Mobile Money Adoption,0.015238197061520055,-0.0006344827908918642,36
+43,categorical__con12_Weekly,con12,mobile-phone use frequency,Weekly,model2,Mobile Money Adoption,0.022121809472881136,-0.002210389180082445,29
+44,categorical__con14_No,con14,ability to read a text message,No,model2,Mobile Money Adoption,0.008064517355854527,0.0012542065585910568,46
+45,categorical__con14_Nonresponse,con14,ability to read a text message,Nonresponse,model2,Mobile Money Adoption,6.482286600515527e-05,-9.336262612346606e-06,68
+46,categorical__con14_Not applicable / skipped,con14,ability to read a text message,Not applicable / skipped,model2,Mobile Money Adoption,0.015238197061520055,-0.0006344827908918642,37
+47,categorical__con14_Yes,con14,ability to read a text message,Yes,model2,Mobile Money Adoption,0.009457878952647943,0.0010962824185203424,43
+48,categorical__con16_No,con16,ability to send a text message,No,model2,Mobile Money Adoption,0.026577566800350436,0.006073024925911382,27
+49,categorical__con16_Nonresponse,con16,ability to send a text message,Nonresponse,model2,Mobile Money Adoption,3.907391604222203e-05,3.907391604222203e-05,70
+50,categorical__con16_Not applicable / skipped,con16,ability to send a text message,Not applicable / skipped,model2,Mobile Money Adoption,0.015875576467935193,-0.0018401710841097253,33
+51,categorical__con16_Yes,con16,ability to send a text message,Yes,model2,Mobile Money Adoption,0.06281258675905144,0.0007632728108306275,11
+52,categorical__con18_No,con18,phone PIN or password,No,model2,Mobile Money Adoption,0.016200915202935876,-0.0015924873597034383,32
+53,categorical__con18_Nonresponse,con18,phone PIN or password,Nonresponse,model2,Mobile Money Adoption,0.00023520479277523663,2.6133865863914898e-05,60
+54,categorical__con18_Not applicable / skipped,con18,phone PIN or password,Not applicable / skipped,model2,Mobile Money Adoption,0.015238197061520055,-0.0006344827908918642,38
+55,categorical__con18_Yes,con18,phone PIN or password,Yes,model2,Mobile Money Adoption,0.0038324127801570847,-0.0002961214802137062,48
+56,categorical__con20_No,con20,rules imposed on own-phone use,No,model2,Mobile Money Adoption,0.04433790402974899,-0.004864102962178144,16
+57,categorical__con20_Nonresponse,con20,rules imposed on own-phone use,Nonresponse,model2,Mobile Money Adoption,7.087285817516865e-06,-7.087285817516865e-06,72
+58,categorical__con20_Not applicable / skipped,con20,rules imposed on own-phone use,Not applicable / skipped,model2,Mobile Money Adoption,0.015238197061520055,-0.0006344827908918642,39
+59,categorical__con20_Yes,con20,rules imposed on own-phone use,Yes,model2,Mobile Money Adoption,0.021385122540673318,-0.004251925300458023,31
+60,categorical__data_purchase_pattern_Data-purchase frequency nonresponse,data_purchase_pattern,data-purchase pattern,Data-purchase frequency nonresponse,model2,Mobile Money Adoption,0.000633748879341854,-0.0001271138250092096,55
+61,categorical__data_purchase_pattern_Data-purchase status nonresponse,data_purchase_pattern,data-purchase pattern,Data-purchase status nonresponse,model2,Mobile Money Adoption,7.561987299760188e-05,7.561987299760188e-05,66
+62,categorical__data_purchase_pattern_Does not purchase data,data_purchase_pattern,data-purchase pattern,Does not purchase data,model2,Mobile Money Adoption,0.0385559272240018,0.0003186440266446449,19
+63,categorical__data_purchase_pattern_No recent internet use / skipped,data_purchase_pattern,data-purchase pattern,No recent internet use / skipped,model2,Mobile Money Adoption,0.126582896062467,-0.0007520070879541836,4
+64,categorical__data_purchase_pattern_Purchases data daily,data_purchase_pattern,data-purchase pattern,Purchases data daily,model2,Mobile Money Adoption,0.026500354756700692,0.004084422829557214,28
+65,categorical__data_purchase_pattern_Purchases data less than monthly,data_purchase_pattern,data-purchase pattern,Purchases data less than monthly,model2,Mobile Money Adoption,0.002816958519462268,-0.0015754851938053112,50
+66,categorical__data_purchase_pattern_Purchases data monthly,data_purchase_pattern,data-purchase pattern,Purchases data monthly,model2,Mobile Money Adoption,0.003434881847668,-0.00046673311484923813,49
+67,categorical__data_purchase_pattern_Purchases data weekly,data_purchase_pattern,data-purchase pattern,Purchases data weekly,model2,Mobile Money Adoption,0.027658095772468073,0.005524064461725833,26
+68,categorical__data_purchase_pattern_Reports purchasing data but frequency never,data_purchase_pattern,data-purchase pattern,Reports purchasing data but frequency never,model2,Mobile Money Adoption,1.2012922443388681e-05,-1.2012922443388681e-05,71
+69,categorical__fin46_No,fin46,ID ownership,No,model2,Mobile Money Adoption,0.02894646703985174,-0.0006655243576836347,25
+70,categorical__fin46_Nonresponse,fin46,ID ownership,Nonresponse,model2,Mobile Money Adoption,0.00014479147850610073,0.00011288827137763807,64
+71,categorical__fin46_Yes,fin46,ID ownership,Yes,model2,Mobile Money Adoption,0.011543294183894324,-0.0006902005473363212,42

@@ -1,0 +1,3 @@
+target,outcome,n,positive_count,weight_sum,weighted_rate,unweighted_rate,weighted_minus_unweighted_pp
+account_fin,Financial institution account,1051,537,1050.9999999951767,0.4313562215472653,0.510941960038059,-7.958573849079375
+account_mob,Mobile money account,1051,611,1050.9999999951767,0.5040691755500712,0.5813510941960038,-7.728191864593259

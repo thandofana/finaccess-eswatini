@@ -1,0 +1,32 @@
+model,model_label,source_feature,feature_label,native_measure,native_importance,importance_share,rank
+model1,Financial Inclusion,age_group,age group,summed impurity importance,0.19069009095477352,0.19069009095477354,1
+model1,Financial Inclusion,emp_in,workforce status,summed impurity importance,0.18370155143739286,0.1837015514373929,2
+model1,Financial Inclusion,inc_q,income quintile,summed impurity importance,0.16556618038756205,0.16556618038756207,3
+model1,Financial Inclusion,educ,education level,summed impurity importance,0.12346739710319621,0.12346739710319622,4
+model1,Financial Inclusion,internet_use,recent internet use,summed impurity importance,0.11319418148970453,0.11319418148970455,5
+model1,Financial Inclusion,con11,SIM registration in own name,summed impurity importance,0.06842054211073641,0.06842054211073642,6
+model1,Financial Inclusion,con18,phone PIN or password,summed impurity importance,0.04134641474798787,0.04134641474798788,7
+model1,Financial Inclusion,fin46,ID ownership,summed impurity importance,0.03781153525034235,0.03781153525034236,8
+model1,Financial Inclusion,con20,rules imposed on own-phone use,summed impurity importance,0.02506361699775244,0.025063616997752444,9
+model1,Financial Inclusion,fin24c,natural-disaster or severe-weather experience,summed impurity importance,0.018117935921452076,0.01811793592145208,10
+model1,Financial Inclusion,phone_access_tier,phone access tier,summed impurity importance,0.012078762323130321,0.012078762323130323,11
+model1,Financial Inclusion,con16,ability to send a text message,summed impurity importance,0.011061277793635117,0.011061277793635119,12
+model1,Financial Inclusion,con12,mobile-phone use frequency,summed impurity importance,0.006239262003853167,0.0062392620038531675,13
+model1,Financial Inclusion,female,gender,summed impurity importance,0.0032412514784809646,0.003241251478480965,14
+model1,Financial Inclusion,con14,ability to read a text message,summed impurity importance,0.0,0.0,15
+model2,Mobile Money Adoption,data_purchase_pattern,data-purchase pattern,summed absolute logistic coefficient,1.0967270354944567,0.15449514911448367,1
+model2,Mobile Money Adoption,con11,SIM registration in own name,summed absolute logistic coefficient,1.035435188774191,0.14586101072627453,2
+model2,Mobile Money Adoption,age_group,age group,summed absolute logistic coefficient,0.8509305155975789,0.11986997004595763,3
+model2,Mobile Money Adoption,inc_q,income quintile,summed absolute logistic coefficient,0.8471865440735529,0.11934255946869944,4
+model2,Mobile Money Adoption,internet_engagement_level,internet engagement,summed absolute logistic coefficient,0.6130725685006404,0.08636309202116381,5
+model2,Mobile Money Adoption,con12,mobile-phone use frequency,summed absolute logistic coefficient,0.4679338935501719,0.06591751121295317,6
+model2,Mobile Money Adoption,con16,ability to send a text message,summed absolute logistic coefficient,0.3459942464300395,0.04873996077872063,7
+model2,Mobile Money Adoption,con20,rules imposed on own-phone use,summed absolute logistic coefficient,0.34371894814514115,0.04841944114491146,8
+model2,Mobile Money Adoption,educ,education level,summed absolute logistic coefficient,0.3195827036570405,0.04501938573406662,9
+model2,Mobile Money Adoption,phone_access_tier,phone access tier,summed absolute logistic coefficient,0.30590769686782154,0.04309299735786557,10
+model2,Mobile Money Adoption,fin46,ID ownership,summed absolute logistic coefficient,0.2014067670284065,0.02837202649125085,11
+model2,Mobile Money Adoption,emp_in,workforce status,summed absolute logistic coefficient,0.1975386375394414,0.02782712587072191,12
+model2,Mobile Money Adoption,con14,ability to read a text message,summed absolute logistic coefficient,0.14779265276603654,0.020819444755293744,13
+model2,Mobile Money Adoption,con18,phone PIN or password,summed absolute logistic coefficient,0.1393429756409528,0.01962914481268268,14
+model2,Mobile Money Adoption,fin24c,natural-disaster or severe-weather experience,summed absolute logistic coefficient,0.10771999492665363,0.015174438251448479,15
+model2,Mobile Money Adoption,female,gender,summed absolute logistic coefficient,0.07848937768951508,0.011056742213505825,16

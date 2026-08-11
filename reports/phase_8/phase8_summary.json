@@ -1,0 +1,193 @@
+{
+  "phase": 8,
+  "status": "PASS_WITH_NOTES",
+  "scope": "Model 2 mobile-money development only",
+  "source": {
+    "file": "data/processed/model2_mobile_money_final.csv",
+    "sha256": "92002b22ddfbfe426fb98c92d3c17b60bde46f7e4392a1f4025a802964acfc73",
+    "rows": 1051,
+    "predictors": 16,
+    "target_distribution": {
+      "0": 440,
+      "1": 611
+    }
+  },
+  "split": {
+    "method": "first fold of shuffled StratifiedGroupKFold",
+    "random_state": 84,
+    "requested_test_fraction": 0.2,
+    "train_rows": 841,
+    "test_rows": 210,
+    "train_positive_rate": 0.5814506539833532,
+    "test_positive_rate": 0.580952380952381,
+    "unique_profiles_total": 958,
+    "duplicate_rows_after_first": 93,
+    "duplicate_profile_groups": 70,
+    "conflicting_label_profile_groups": 32,
+    "respondents_in_conflicting_groups": 77,
+    "profile_overlap_count": 0,
+    "train_index_sha256": "395dccdcdc5e8f13389693fb225889fb8f7ae1007a2d124312ebd08d6f494a3d",
+    "test_index_sha256": "dd23bbee263512d245c9726670851a60300d27dfd250739262bb3fcc485c03f2"
+  },
+  "cross_validation": {
+    "method": "shuffled StratifiedGroupKFold on Model 2 training partition",
+    "folds": 5,
+    "random_state": 85,
+    "profile_overlap_count_every_fold": 0,
+    "selection_data": "Model 2 training partition only"
+  },
+  "selection": {
+    "primary_metric": "mean group-aware CV ROC-AUC",
+    "rule": "one-standard-error rule, then lowest predefined complexity tier and highest mean CV ROC-AUC",
+    "best_mean_cv_roc_auc": 0.7158330373573231,
+    "best_model_by_mean_auc": "random_forest",
+    "best_model_standard_error": 0.02106534953770213,
+    "eligibility_cutoff": 0.694767687819621,
+    "selected_model": "logistic_regression",
+    "selected_model_label": "Logistic Regression",
+    "best_parameters": {
+      "model__C": 0.05,
+      "model__class_weight": "balanced"
+    },
+    "selected_cv_mean_roc_auc": 0.7096561993462986,
+    "selected_cv_std_roc_auc": 0.042523090296173696,
+    "selected_cv_mean_f1": 0.700078209447593
+  },
+  "holdout_evaluation": {
+    "evaluated_once_after_selection": true,
+    "decision_threshold": 0.5,
+    "metrics": {
+      "accuracy": 0.6761904761904762,
+      "balanced_accuracy": 0.6674739195230999,
+      "precision": 0.7213114754098361,
+      "recall": 0.7213114754098361,
+      "f1": 0.7213114754098361,
+      "roc_auc": 0.725596125186289,
+      "brier_score": 0.2053321242716968,
+      "log_loss": 0.596444104124013
+    },
+    "bootstrap_intervals": [
+      {
+        "metric": "accuracy",
+        "lower_95": 0.6095238095238096,
+        "median": 0.6761904761904762,
+        "upper_95": 0.7380952380952381,
+        "iterations": 1000,
+        "method": "stratified nonparametric bootstrap"
+      },
+      {
+        "metric": "precision",
+        "lower_95": 0.6692279411764706,
+        "median": 0.7213114754098361,
+        "upper_95": 0.7786924653215637,
+        "iterations": 1000,
+        "method": "stratified nonparametric bootstrap"
+      },
+      {
+        "metric": "recall",
+        "lower_95": 0.639344262295082,
+        "median": 0.7213114754098361,
+        "upper_95": 0.7950819672131147,
+        "iterations": 1000,
+        "method": "stratified nonparametric bootstrap"
+      },
+      {
+        "metric": "f1",
+        "lower_95": 0.6608840154925155,
+        "median": 0.7218654158397979,
+        "upper_95": 0.7747237234814874,
+        "iterations": 1000,
+        "method": "stratified nonparametric bootstrap"
+      },
+      {
+        "metric": "roc_auc",
+        "lower_95": 0.6566575074515647,
+        "median": 0.7267837183308494,
+        "upper_95": 0.7905318554396423,
+        "iterations": 1000,
+        "method": "stratified nonparametric bootstrap"
+      },
+      {
+        "metric": "brier_score",
+        "lower_95": 0.1862308897114437,
+        "median": 0.20502930546557552,
+        "upper_95": 0.2255333425848507,
+        "iterations": 1000,
+        "method": "stratified nonparametric bootstrap"
+      }
+    ],
+    "confusion": {
+      "tn": 54,
+      "fp": 34,
+      "fn": 34,
+      "tp": 88
+    }
+  },
+  "diagnostics": {
+    "train_cv_auc_gap": 0.04969720362385177,
+    "overfitting_flag": "low observed train–CV gap",
+    "holdout_minus_cv_auc": 0.015939925839990376,
+    "expected_calibration_error": 0.07909722655763989,
+    "transformed_feature_count": 72,
+    "unseen_holdout_category_count": 1
+  },
+  "artifact": {
+    "pipeline_file": "models/model2_mobile_money_pipeline.joblib",
+    "pipeline_sha256": "3df51a31fc420043b8e386c73d2a46771cafe64a619d69faf6fd5a2db12d7606",
+    "metadata_file": "models/model2_mobile_money_metadata.json",
+    "reload_prediction_match": true,
+    "contains_preprocessing_and_estimator": true
+  },
+  "model1_safeguard": {
+    "pipeline_sha256_before": "467e5519c022a0c716e38bae3f7b44752b4a50da6553720541d75efcb5d2b7b3",
+    "pipeline_sha256_after": "467e5519c022a0c716e38bae3f7b44752b4a50da6553720541d75efcb5d2b7b3",
+    "unchanged": true
+  },
+  "figures": [
+    {
+      "figure": "01_model_comparison.png",
+      "format": "png",
+      "purpose": "Compare Model 2 candidates using training-fold metrics only"
+    },
+    {
+      "figure": "01_model_comparison.svg",
+      "format": "svg",
+      "purpose": "Compare Model 2 candidates using training-fold metrics only"
+    },
+    {
+      "figure": "02_holdout_evaluation.png",
+      "format": "png",
+      "purpose": "Evaluate Model 2 discrimination, errors, and calibration on its protected holdout"
+    },
+    {
+      "figure": "02_holdout_evaluation.svg",
+      "format": "svg",
+      "purpose": "Evaluate Model 2 discrimination, errors, and calibration on its protected holdout"
+    }
+  ],
+  "feature_importance_generated": false,
+  "shap_generated": false,
+  "limitations": [
+    "small protected holdout produces material metric uncertainty",
+    "77 respondents belong to identical predictor profiles with conflicting outcomes",
+    "recent internet and data-purchase features overlap the target observation period",
+    "observational predictors do not support causal claims",
+    "0.50 threshold remains provisional",
+    "survey weights were not used as predictors or loss weights"
+  ],
+  "deliverable_validation": {
+    "passed": true,
+    "phases_checked": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "missing_files": {},
+    "checklist": "reports/phase_8/deliverable_checklist.md"
+  }
+}

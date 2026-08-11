@@ -1,0 +1,39 @@
+{
+  "openapi": "3.1.0",
+  "title": "FinAccess Eswatini Prediction API",
+  "version": "1.0.0",
+  "paths": {
+    "/": [
+      "GET"
+    ],
+    "/health": [
+      "GET"
+    ],
+    "/api/v1/assessment": [
+      "POST"
+    ]
+  },
+  "assessment_request_fields": [
+    "female",
+    "age_group",
+    "educ",
+    "inc_q",
+    "emp_in",
+    "fin24c",
+    "internet_use",
+    "internet_engagement_level",
+    "phone_access_tier",
+    "con11",
+    "con12",
+    "con14",
+    "con16",
+    "con18",
+    "con20",
+    "data_purchase_pattern",
+    "fin46"
+  ],
+  "assessment_request_field_count": 17,
+  "extra_fields_forbidden": true,
+  "response_schema": "AssessmentResponse",
+  "validation_error_schema": "ErrorResponse"
+}

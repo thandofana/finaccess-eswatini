@@ -1,0 +1,18 @@
+{
+  "analytics": {
+    "repository": "C:\\Users\\Thando F Dlamini\\Documents\\projects\\FinAccess Eswatini",
+    "publishable_file_count": 230,
+    "publishable_bytes": 11290981,
+    "secret_files": [],
+    "temporary_files": [],
+    "respondent_data_files": []
+  },
+  "deployment": {
+    "repository": "C:\\Users\\Thando F Dlamini\\Documents\\projects\\FinAccess Eswatini\\frontend",
+    "publishable_file_count": 37,
+    "publishable_bytes": 2927247,
+    "secret_files": [],
+    "temporary_files": [],
+    "respondent_data_files": []
+  }
+}

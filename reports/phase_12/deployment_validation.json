@@ -1,0 +1,127 @@
+{
+  "phase": 12,
+  "generated_at_utc": "2026-08-11T13:40:33.027284+00:00",
+  "status": "PASS_WITH_NOTES",
+  "endpoints": {
+    "application": "https://finaccess-eswatini.vercel.app",
+    "frontend": "https://finaccess-eswatini.vercel.app",
+    "api": "https://finaccess-eswatini.vercel.app/api",
+    "health": "https://finaccess-eswatini.vercel.app/api/health",
+    "docs": "https://finaccess-eswatini.vercel.app/api/docs",
+    "assessment": "https://finaccess-eswatini.vercel.app/api/v1/assessment"
+  },
+  "architecture": {
+    "platform": "One Vercel Hobby project using Vercel Services",
+    "frontend": "Next.js 16 Signal interface in the web service",
+    "api": "FastAPI Python 3.13 inference service under /api",
+    "model_runtime": "Two saved scikit-learn pipelines with model-matched SHAP explainers",
+    "request_path": "Browser -> same-origin /api route -> FastAPI -> both models"
+  },
+  "deployment_repository": {
+    "remote": "https://github.com/thandofana/finaccess-eswatini-web",
+    "validated_commit": "6ac1810"
+  },
+  "checks": [
+    {
+      "check": "public_frontend_https",
+      "status": "PASS",
+      "evidence": "HTTP 200 at the production domain; Signal heading and developer credit found without an authentication redirect."
+    },
+    {
+      "check": "api_health_and_artifact_integrity",
+      "status": "PASS",
+      "evidence": "HTTP 200; two hash-matched model/explainer pairs are ready."
+    },
+    {
+      "check": "openapi_contract",
+      "status": "PASS",
+      "evidence": "HTTP 200; same-origin health and assessment paths present."
+    },
+    {
+      "check": "interactive_api_documentation",
+      "status": "PASS",
+      "evidence": "HTTP 200 at /api/docs."
+    },
+    {
+      "check": "combined_assessment",
+      "status": "PASS",
+      "evidence": "HTTP 200; one public request returned both outcomes."
+    },
+    {
+      "check": "validated_prediction_equivalence",
+      "status": "PASS",
+      "evidence": "Live probabilities and all local SHAP factors match the validated Phase 10 example."
+    },
+    {
+      "check": "explanation_factors",
+      "status": "PASS",
+      "evidence": "Model-derived explanation counts: {'financial_inclusion': 5, 'mobile_money_adoption': 5}."
+    },
+    {
+      "check": "invalid_input_rejected",
+      "status": "PASS",
+      "evidence": "Empty profile rejected with HTTP 422."
+    },
+    {
+      "check": "one_domain_no_cors_dependency",
+      "status": "PASS",
+      "evidence": "The browser and FastAPI routes share one HTTPS origin; CORS is not in the normal path."
+    },
+    {
+      "check": "vercel_services_configuration",
+      "status": "PASS",
+      "evidence": "Next.js and FastAPI are separate Vercel services with API-first routing."
+    },
+    {
+      "check": "no_external_api_dependency",
+      "status": "PASS",
+      "evidence": "Deployed routing and assessment source contain no Render, Sites, or external API URL."
+    },
+    {
+      "check": "public_access_without_project_auth",
+      "status": "PASS",
+      "evidence": "No ChatGPT sign-in module or OpenAI hosting manifest is tracked in the deployment repository."
+    },
+    {
+      "check": "microdata_publication_safety",
+      "status": "PASS",
+      "evidence": "No respondent-level dataset is tracked by the public deployment repository."
+    },
+    {
+      "check": "model_artifacts_published",
+      "status": "PASS",
+      "evidence": "6/6 validated deployment artifacts tracked."
+    },
+    {
+      "check": "secret_file_safety",
+      "status": "PASS",
+      "evidence": "No live environment, private-key, or certificate file is tracked."
+    }
+  ],
+  "latency_seconds": {
+    "frontend": 1.673,
+    "health": 9.684,
+    "api_docs": 0.442,
+    "assessment": 0.729,
+    "invalid_request": 0.64
+  },
+  "sample_prediction": {
+    "financial_inclusion": {
+      "answer": "This person is unlikely to be financially included.",
+      "probability_percent": 26.9,
+      "factor_count": 5
+    },
+    "mobile_money_adoption": {
+      "answer": "This person is unlikely to use mobile money.",
+      "probability_percent": 36.8,
+      "factor_count": 5
+    }
+  },
+  "notes": [
+    "Vercel Services and the Vercel Python runtime are beta features, so deployment regression checks remain important.",
+    "The Python dependency bundle was optimized by Vercel at 434.92 MB; dependency growth should be monitored.",
+    "Automatic Git deployments require granting the Vercel GitHub App access to the private web repository; the validated release was deployed with the authenticated CLI.",
+    "Serverless cold-start time can vary, although the live path no longer depends on a Render free-service wake-up.",
+    "This remains a portfolio proof of concept, not a production financial decision engine."
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "phase": 6,
+  "status": "PASS_WITH_NOTES",
+  "scope": "deterministic feature engineering and final matrices only",
+  "source_validation": {
+    "raw_sha256": "4968eaa568df1ddf8d5fadea39f4797d1bdecc2c3f941546936a200ce4bc210c",
+    "model1_phase3_sha256": "dcfb2e615179b832f9dd7746667a1b9b0a35142c5b90575fe4db4c9c71429e4e",
+    "model2_phase3_sha256": "8aebdf141e73c96c8a0c520dc2cb7bc245e29e4cd1e7d6aa097b890dd97020ed"
+  },
+  "models": {
+    "model1": {
+      "target": "account_fin",
+      "rows": 1051,
+      "columns": 16,
+      "feature_count": 15,
+      "features": [
+        "female",
+        "age_group",
+        "educ",
+        "inc_q",
+        "emp_in",
+        "fin24c",
+        "internet_use",
+        "phone_access_tier",
+        "con11",
+        "con12",
+        "con14",
+        "con16",
+        "con18",
+        "con20",
+        "fin46"
+      ],
+      "numeric_features": [],
+      "categorical_features": [
+        "female",
+        "age_group",
+        "educ",
+        "inc_q",
+        "emp_in",
+        "fin24c",
+        "internet_use",
+        "phone_access_tier",
+        "con11",
+        "con12",
+        "con14",
+        "con16",
+        "con18",
+        "con20",
+        "fin46"
+      ],
+      "null_cells": 0,
+      "target_distribution": {
+        "0": 514,
+        "1": 537
+      },
+      "output_file": "data/processed/model1_financial_inclusion_final.csv",
+      "output_sha256": "37785e0819f1d050f94d395476aacd5440e9daf6a642174f813b7c2f70ab2ccc"
+    },
+    "model2": {
+      "target": "account_mob",
+      "rows": 1051,
+      "columns": 17,
+      "feature_count": 16,
+      "features": [
+        "female",
+        "age_group",
+        "educ",
+        "inc_q",
+        "emp_in",
+        "fin24c",
+        "internet_engagement_level",
+        "phone_access_tier",
+        "con11",
+        "con12",
+        "con14",
+        "con16",
+        "con18",
+        "con20",
+        "data_purchase_pattern",
+        "fin46"
+      ],
+      "numeric_features": [],
+      "categorical_features": [
+        "female",
+        "age_group",
+        "educ",
+        "inc_q",
+        "emp_in",
+        "fin24c",
+        "internet_engagement_level",
+        "phone_access_tier",
+        "con11",
+        "con12",
+        "con14",
+        "con16",
+        "con18",
+        "con20",
+        "data_purchase_pattern",
+        "fin46"
+      ],
+      "null_cells": 0,
+      "target_distribution": {
+        "0": 440,
+        "1": 611
+      },
+      "output_file": "data/processed/model2_mobile_money_final.csv",
+      "output_sha256": "92002b22ddfbfe426fb98c92d3c17b60bde46f7e4392a1f4025a802964acfc73"
+    }
+  },
+  "engineering": {
+    "retained_features": [
+      "age_group",
+      "phone_access_tier",
+      "internet_engagement_level (model2 only)",
+      "data_purchase_pattern (model2 only)"
+    ],
+    "excluded_proposals": [
+      "online_activity_breadth",
+      "digital_access_score"
+    ],
+    "target_used_in_derivation": false,
+    "learned_parameters": false
+  },
+  "split_performed": false,
+  "models_trained": false,
+  "figures": [
+    {
+      "figure": "01_engineered_feature_distributions.png",
+      "format": "png",
+      "purpose": "Validate coverage of retained deterministic engineered features"
+    },
+    {
+      "figure": "01_engineered_feature_distributions.svg",
+      "format": "svg",
+      "purpose": "Validate coverage of retained deterministic engineered features"
+    }
+  ],
+  "limitations": [
+    "fixed age bands discard within-band age detail",
+    "recent Model 2 digital behaviors overlap the mobile-money target observation period",
+    "internet_use=0 combines no, don't know, and refused",
+    "model usefulness and generalisation remain untested until the dedicated modelling phases"
+  ],
+  "deliverable_validation": {
+    "passed": true,
+    "phases_checked": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "missing_files": {},
+    "checklist": "reports/phase_6/deliverable_checklist.md"
+  }
+}

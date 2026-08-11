@@ -1,0 +1,39 @@
+model,feature,category,count,proportion
+model1,age_group,25–34,278,0.26450999048525214
+model1,age_group,15–24,271,0.25784966698382494
+model1,age_group,35–44,220,0.2093244529019981
+model1,age_group,45–54,104,0.09895337773549001
+model1,age_group,55–64,97,0.0922930542340628
+model1,age_group,65+,81,0.07706945765937202
+model1,phone_access_tier,Smartphone,582,0.5537583254043768
+model1,phone_access_tier,Basic text phone,342,0.32540437678401524
+model1,phone_access_tier,No personal mobile phone,117,0.11132254995242626
+model1,phone_access_tier,Phone type nonresponse,9,0.008563273073263558
+model1,phone_access_tier,Phone ownership nonresponse,1,0.0009514747859181732
+model2,age_group,25–34,278,0.26450999048525214
+model2,age_group,15–24,271,0.25784966698382494
+model2,age_group,35–44,220,0.2093244529019981
+model2,age_group,45–54,104,0.09895337773549001
+model2,age_group,55–64,97,0.0922930542340628
+model2,age_group,65+,81,0.07706945765937202
+model2,phone_access_tier,Smartphone,582,0.5537583254043768
+model2,phone_access_tier,Basic text phone,342,0.32540437678401524
+model2,phone_access_tier,No personal mobile phone,117,0.11132254995242626
+model2,phone_access_tier,Phone type nonresponse,9,0.008563273073263558
+model2,phone_access_tier,Phone ownership nonresponse,1,0.0009514747859181732
+model2,internet_engagement_level,Daily internet use,429,0.4081826831588963
+model2,internet_engagement_level,No recent internet use / no-DK-ref,423,0.40247383444338725
+model2,internet_engagement_level,Weekly internet use,113,0.10751665080875357
+model2,internet_engagement_level,Monthly internet use,52,0.049476688867745006
+model2,internet_engagement_level,Less than monthly internet use,18,0.017126546146527116
+model2,internet_engagement_level,Recent-use indicator; frequency reported never,8,0.007611798287345386
+model2,internet_engagement_level,Recent internet use; frequency nonresponse,8,0.007611798287345386
+model2,data_purchase_pattern,No recent internet use / skipped,423,0.40247383444338725
+model2,data_purchase_pattern,Purchases data monthly,317,0.3016175071360609
+model2,data_purchase_pattern,Purchases data weekly,142,0.1351094196003806
+model2,data_purchase_pattern,Does not purchase data,76,0.07231208372978117
+model2,data_purchase_pattern,Purchases data daily,68,0.06470028544243578
+model2,data_purchase_pattern,Purchases data less than monthly,15,0.014272121788772598
+model2,data_purchase_pattern,Data-purchase frequency nonresponse,7,0.006660323501427212
+model2,data_purchase_pattern,Data-purchase status nonresponse,2,0.0019029495718363464
+model2,data_purchase_pattern,Reports purchasing data but frequency never,1,0.0009514747859181732

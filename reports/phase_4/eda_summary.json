@@ -1,0 +1,186 @@
+{
+  "phase": 4,
+  "status": "PASS_WITH_NOTES",
+  "scope": "descriptive exploratory analysis only",
+  "source_validation": {
+    "source_sha256": "4968eaa568df1ddf8d5fadea39f4797d1bdecc2c3f941546936a200ce4bc210c",
+    "rows": 1051,
+    "weight_count": 1051,
+    "weight_missing": 0,
+    "weight_nonpositive": 0,
+    "weight_min": 0.171572469766396,
+    "weight_max": 3.18546652438591,
+    "weight_sum": 1050.9999999951767
+  },
+  "estimation": {
+    "primary_rate": "survey-weighted using wgt",
+    "supporting_rate": "unweighted sample proportion",
+    "sample_size_reporting": "unweighted n",
+    "hypothesis_tests_performed": false,
+    "causal_claims_made": false
+  },
+  "overall_rates": [
+    {
+      "target": "account_fin",
+      "outcome": "Financial institution account",
+      "n": 1051,
+      "positive_count": 537,
+      "weight_sum": 1050.9999999951767,
+      "weighted_rate": 0.4313562215472653,
+      "unweighted_rate": 0.510941960038059,
+      "weighted_minus_unweighted_pp": -7.958573849079375
+    },
+    {
+      "target": "account_mob",
+      "outcome": "Mobile money account",
+      "n": 1051,
+      "positive_count": 611,
+      "weight_sum": 1050.9999999951767,
+      "weighted_rate": 0.5040691755500712,
+      "unweighted_rate": 0.5813510941960038,
+      "weighted_minus_unweighted_pp": -7.728191864593259
+    }
+  ],
+  "subgroup_row_count": 56,
+  "dimensions": [
+    "gender",
+    "age_group",
+    "education",
+    "income_quintile",
+    "employment",
+    "internet_use",
+    "phone_ownership",
+    "phone_type"
+  ],
+  "findings": [
+    {
+      "question": "How common are financial inclusion and mobile-money adoption?",
+      "finding": "The weighted financial-inclusion estimate is 43.1%; the weighted mobile-money estimate is 50.4%.",
+      "interpretation": "Mobile-money adoption is more common than financial-institution account ownership in the weighted descriptive estimates."
+    },
+    {
+      "question": "Does financial access differ by education?",
+      "finding": "Financial inclusion is 82.4% among respondents with tertiary education or more and 36.8% among those with primary education or less.",
+      "interpretation": "Education level is associated with a large descriptive financial-inclusion gap."
+    },
+    {
+      "question": "Does financial access differ by household income?",
+      "finding": "Financial inclusion rises from 34.1% in quintile 1 to 65.0% in quintile 5.",
+      "interpretation": "Higher income quintiles are associated with higher financial-inclusion rates, although mobile-money rates are not perfectly monotonic across all quintiles."
+    },
+    {
+      "question": "Does workforce participation matter descriptively?",
+      "finding": "Financial inclusion is 55.8% in the workforce and 30.6% outside it.",
+      "interpretation": "Workforce participation is associated with higher observed financial inclusion and mobile-money adoption."
+    },
+    {
+      "question": "How is recent internet use associated with the outcomes?",
+      "finding": "Mobile-money adoption is 60.5% among recent internet users and 39.7% in the combined zero category.",
+      "interpretation": "Recent internet use is associated with higher observed financial inclusion and mobile-money adoption."
+    },
+    {
+      "question": "How is mobile-phone ownership associated with mobile money?",
+      "finding": "Mobile-money adoption is 55.2% among phone owners and 20.4% among respondents reporting no phone.",
+      "interpretation": "Phone ownership is associated with a sizeable mobile-money adoption gap."
+    }
+  ],
+  "figures": [
+    {
+      "figure": "01_overall_access_rates.png",
+      "stem": "01_overall_access_rates",
+      "format": "png",
+      "question": "How common are the two financial-access outcomes?",
+      "estimate": "weighted and unweighted overall rates",
+      "note": "Weighted estimates with unweighted sample-rate markers.",
+      "sha256": "f17059e1f1fb4927bb052e565bf4b9c2fc3410a2c273f5d13984a0237085ecab",
+      "size_bytes": 64236
+    },
+    {
+      "figure": "01_overall_access_rates.svg",
+      "stem": "01_overall_access_rates",
+      "format": "svg",
+      "question": "How common are the two financial-access outcomes?",
+      "estimate": "weighted and unweighted overall rates",
+      "note": "Weighted estimates with unweighted sample-rate markers.",
+      "sha256": "fecb3ed98767e9d228e42455cf552c746328e98e9c3375a848d7e51aea81f3af",
+      "size_bytes": 53472
+    },
+    {
+      "figure": "02_demographic_patterns.png",
+      "stem": "02_demographic_patterns",
+      "format": "png",
+      "question": "How do outcomes vary by gender and age?",
+      "estimate": "survey-weighted subgroup rate",
+      "note": "Weighted rates; all substantive groups shown.",
+      "sha256": "0636b8171a73cd8778af98eb5f8086ccfeb3eb1686841610787512cdb3e0b5f9",
+      "size_bytes": 111678
+    },
+    {
+      "figure": "02_demographic_patterns.svg",
+      "stem": "02_demographic_patterns",
+      "format": "svg",
+      "question": "How do outcomes vary by gender and age?",
+      "estimate": "survey-weighted subgroup rate",
+      "note": "Weighted rates; all substantive groups shown.",
+      "sha256": "782de8a05d4f976f2ed580090b2c921f19e116775ee49d5a4eaea71b60779a80",
+      "size_bytes": 71445
+    },
+    {
+      "figure": "03_socioeconomic_patterns.png",
+      "stem": "03_socioeconomic_patterns",
+      "format": "png",
+      "question": "How do education, income, and employment relate to access?",
+      "estimate": "survey-weighted subgroup rate",
+      "note": "Weighted rates; non-substantive response categories omitted from the chart but retained in CSV summaries.",
+      "sha256": "e37f5d0bbea4c667fe35ac93e72991e8561e5acf832adb66b64cd7712eb62e97",
+      "size_bytes": 178943
+    },
+    {
+      "figure": "03_socioeconomic_patterns.svg",
+      "stem": "03_socioeconomic_patterns",
+      "format": "svg",
+      "question": "How do education, income, and employment relate to access?",
+      "estimate": "survey-weighted subgroup rate",
+      "note": "Weighted rates; non-substantive response categories omitted from the chart but retained in CSV summaries.",
+      "sha256": "a92fa51fce740de27cb84c457e27fc0fd4fc145133fe7829ba796de86bb62824",
+      "size_bytes": 96317
+    },
+    {
+      "figure": "04_digital_access_patterns.png",
+      "stem": "04_digital_access_patterns",
+      "format": "png",
+      "question": "How do internet and phone access relate to the two outcomes?",
+      "estimate": "survey-weighted subgroup rate",
+      "note": "Weighted rates; non-substantive response categories omitted from the chart and retained in CSV summaries.",
+      "sha256": "e2d2149dddf93c96ddecfddbc52a29f821fd16a6eed1127173f9e0b526f43791",
+      "size_bytes": 147928
+    },
+    {
+      "figure": "04_digital_access_patterns.svg",
+      "stem": "04_digital_access_patterns",
+      "format": "svg",
+      "question": "How do internet and phone access relate to the two outcomes?",
+      "estimate": "survey-weighted subgroup rate",
+      "note": "Weighted rates; non-substantive response categories omitted from the chart and retained in CSV summaries.",
+      "sha256": "81b44994d8fadd83528e52184b4db484acd463fb9626d9d23161e4af45337bcc",
+      "size_bytes": 86173
+    }
+  ],
+  "limitations": [
+    "urbanicity is constant and cannot support an urban/rural comparison",
+    "survey-design strata and cluster variables were not used",
+    "internet_use=0 combines no, don't know, and refused",
+    "bivariate associations do not imply causation"
+  ],
+  "deliverable_validation": {
+    "passed": true,
+    "phases_checked": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "missing_files": {},
+    "checklist": "reports/phase_4/deliverable_checklist.md"
+  }
+}

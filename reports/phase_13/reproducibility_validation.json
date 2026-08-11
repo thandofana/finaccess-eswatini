@@ -1,0 +1,249 @@
+{
+  "phase": 13,
+  "generated_at_utc": "2026-08-12T13:21:41.156311+00:00",
+  "status": "PASS_WITH_NOTES",
+  "checks": [
+    {
+      "check": "completed_phase_deliverables",
+      "status": "PASS",
+      "evidence": "All machine-checked deliverables through Phase 13 are present."
+    },
+    {
+      "check": "recruiter_readme",
+      "status": "PASS",
+      "evidence": "The main README follows the approved numbered portfolio structure and includes the live product, evidence, models, metrics, screenshots, technology, repository map, and limitations."
+    },
+    {
+      "check": "deployment_readme",
+      "status": "PASS",
+      "evidence": "The deployable repository documents the product, architecture, local workflow, validation, screenshots, and limits."
+    },
+    {
+      "check": "live_product_screenshots",
+      "status": "PASS",
+      "evidence": "4/4 live PNG captures passed size and non-blank-image checks."
+    },
+    {
+      "check": "executed_notebook_portfolio",
+      "status": "PASS",
+      "evidence": "13 phase-aligned notebooks contain executed code, saved output, and no saved errors."
+    },
+    {
+      "check": "notebook_guide",
+      "status": "PASS",
+      "evidence": "The notebook guide covers all 13 completed phases."
+    },
+    {
+      "check": "implementation_report",
+      "status": "PASS",
+      "evidence": "The professional implementation-and-rationale report covers Phases 1-13."
+    },
+    {
+      "check": "root_repository_publication_safety",
+      "status": "PASS",
+      "evidence": "The analytical repository contains no publishable secret file or raw respondent microdata file."
+    },
+    {
+      "check": "deployment_repository_publication_safety",
+      "status": "PASS",
+      "evidence": "The deployment repository contains model artifacts but no secret or respondent-level data file."
+    },
+    {
+      "check": "tracked_temporary_artifacts",
+      "status": "PASS",
+      "evidence": "No cache, runtime, build, distribution, or dependency file is publishable in either repository."
+    },
+    {
+      "check": "separate_deployment_repository",
+      "status": "PASS",
+      "evidence": "The Vercel product remains an independently versioned repository and is excluded from the analytical repository."
+    },
+    {
+      "check": "public_production_regression",
+      "status": "PASS",
+      "evidence": "All 15 live frontend, API, model, explanation, routing, and publication checks passed."
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "01_overview.png",
+      "exists": true,
+      "format": "PNG",
+      "width": 1440,
+      "height": 1050,
+      "bytes": 105042,
+      "luminance_stddev": 38.632
+    },
+    {
+      "file": "02_assessment.png",
+      "exists": true,
+      "format": "PNG",
+      "width": 1328,
+      "height": 817,
+      "bytes": 34858,
+      "luminance_stddev": 20.003
+    },
+    {
+      "file": "03_assessment_results.png",
+      "exists": true,
+      "format": "PNG",
+      "width": 1328,
+      "height": 888,
+      "bytes": 97403,
+      "luminance_stddev": 34.69
+    },
+    {
+      "file": "04_methodology.png",
+      "exists": true,
+      "format": "PNG",
+      "width": 1440,
+      "height": 1050,
+      "bytes": 98003,
+      "luminance_stddev": 34.038
+    }
+  ],
+  "notebooks": [
+    {
+      "file": "01_data_understanding.ipynb",
+      "code_cells": 2,
+      "executed_code_cells": 2,
+      "saved_outputs": 2,
+      "saved_errors": 0,
+      "embedded_png_outputs": 0
+    },
+    {
+      "file": "02_data_dictionary_feature_eligibility.ipynb",
+      "code_cells": 2,
+      "executed_code_cells": 2,
+      "saved_outputs": 2,
+      "saved_errors": 0,
+      "embedded_png_outputs": 0
+    },
+    {
+      "file": "03_data_cleaning_preprocessing.ipynb",
+      "code_cells": 2,
+      "executed_code_cells": 2,
+      "saved_outputs": 2,
+      "saved_errors": 0,
+      "embedded_png_outputs": 0
+    },
+    {
+      "file": "04_exploratory_analysis.ipynb",
+      "code_cells": 4,
+      "executed_code_cells": 4,
+      "saved_outputs": 5,
+      "saved_errors": 0,
+      "embedded_png_outputs": 3
+    },
+    {
+      "file": "05_statistical_analysis.ipynb",
+      "code_cells": 4,
+      "executed_code_cells": 4,
+      "saved_outputs": 4,
+      "saved_errors": 0,
+      "embedded_png_outputs": 0
+    },
+    {
+      "file": "06_feature_engineering.ipynb",
+      "code_cells": 4,
+      "executed_code_cells": 4,
+      "saved_outputs": 9,
+      "saved_errors": 0,
+      "embedded_png_outputs": 1
+    },
+    {
+      "file": "07_financial_inclusion_model.ipynb",
+      "code_cells": 4,
+      "executed_code_cells": 4,
+      "saved_outputs": 7,
+      "saved_errors": 0,
+      "embedded_png_outputs": 2
+    },
+    {
+      "file": "08_mobile_money_model.ipynb",
+      "code_cells": 4,
+      "executed_code_cells": 4,
+      "saved_outputs": 7,
+      "saved_errors": 0,
+      "embedded_png_outputs": 2
+    },
+    {
+      "file": "09_model_explainability.ipynb",
+      "code_cells": 4,
+      "executed_code_cells": 4,
+      "saved_outputs": 8,
+      "saved_errors": 0,
+      "embedded_png_outputs": 2
+    },
+    {
+      "file": "10_prediction_api.ipynb",
+      "code_cells": 4,
+      "executed_code_cells": 4,
+      "saved_outputs": 9,
+      "saved_errors": 0,
+      "embedded_png_outputs": 0
+    },
+    {
+      "file": "11_web_application.ipynb",
+      "code_cells": 4,
+      "executed_code_cells": 4,
+      "saved_outputs": 4,
+      "saved_errors": 0,
+      "embedded_png_outputs": 1
+    },
+    {
+      "file": "12_deployment.ipynb",
+      "code_cells": 4,
+      "executed_code_cells": 4,
+      "saved_outputs": 4,
+      "saved_errors": 0,
+      "embedded_png_outputs": 0
+    },
+    {
+      "file": "13_portfolio_polish.ipynb",
+      "code_cells": 5,
+      "executed_code_cells": 5,
+      "saved_outputs": 6,
+      "saved_errors": 0,
+      "embedded_png_outputs": 2
+    }
+  ],
+  "repositories": {
+    "analytics": {
+      "repository": "C:\\Users\\Thando F Dlamini\\Documents\\projects\\FinAccess Eswatini",
+      "publishable_file_count": 230,
+      "publishable_bytes": 11290981,
+      "secret_files": [],
+      "temporary_files": [],
+      "respondent_data_files": []
+    },
+    "deployment": {
+      "repository": "C:\\Users\\Thando F Dlamini\\Documents\\projects\\FinAccess Eswatini\\frontend",
+      "publishable_file_count": 37,
+      "publishable_bytes": 2927247,
+      "secret_files": [],
+      "temporary_files": [],
+      "respondent_data_files": []
+    }
+  },
+  "live_validation": {
+    "application_url": "https://finaccess-eswatini.vercel.app",
+    "status": "PASS_WITH_NOTES",
+    "checks_passed": 15,
+    "checks_total": 15,
+    "latency_seconds": {
+      "frontend": 0.512,
+      "health": 0.562,
+      "api_docs": 0.429,
+      "assessment": 0.513,
+      "invalid_request": 0.444
+    }
+  },
+  "notes": [
+    "The analytical and deployment GitHub repositories remain private until the project owner explicitly approves public source visibility; the live application itself is public and requires no sign-in.",
+    "Automatic Git deployments still require Vercel GitHub App access; the validated production release uses the authenticated CLI workflow.",
+    "Vercel Services and the Python runtime remain platform dependencies to regression-test.",
+    "Raw World Bank respondent microdata remain local and are not included in either publishable repository.",
+    "This is a portfolio proof of concept, not a production financial decision engine."
+  ]
+}

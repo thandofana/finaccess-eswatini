@@ -1,0 +1,46 @@
+{
+  "phase": 11,
+  "status": "PASS_WITH_NOTES",
+  "scope": "Selected Signal frontend with two archived design alternatives",
+  "concepts": [
+    {
+      "key": "ledger",
+      "name": "The Ledger",
+      "design_voice": "Editorial evidence",
+      "palette": "Warm ivory, forest green, and ochre",
+      "route": "/concepts/ledger"
+    },
+    {
+      "key": "open-field",
+      "name": "Open Field",
+      "design_voice": "Human-centred insight",
+      "palette": "Soft sage, cream, and terracotta",
+      "route": "/concepts/open-field"
+    },
+    {
+      "key": "signal",
+      "name": "Signal",
+      "design_voice": "Modern fintech clarity",
+      "palette": "White, pale blue, cobalt, and teal",
+      "route": "/concepts/signal"
+    }
+  ],
+  "product_areas_per_concept": 5,
+  "assessment_fields": 17,
+  "frontend_tests": 5,
+  "frontend_validation_checks": 15,
+  "frontend_validation_checks_passed": 15,
+  "end_to_end_example": {
+    "financial_inclusion_probability_percent": 26.9,
+    "mobile_money_probability_percent": 36.8,
+    "model_derived_factors_per_outcome": 5
+  },
+  "api_proxy": "/api/assessment -> ${FINACCESS_API_URL}/api/v1/assessment",
+  "deployment_started": false,
+  "concept_selected": true,
+  "selected_concept": "Signal",
+  "limitations": [
+    "Public hosting and production environment configuration remain Phase 12 work.",
+    "Thresholds remain provisional and the product remains a proof of concept."
+  ]
+}

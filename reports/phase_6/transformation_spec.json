@@ -1,0 +1,60 @@
+{
+  "target_used_in_derivation": false,
+  "learned_parameters": false,
+  "age_group": {
+    "source": [
+      "age"
+    ],
+    "rule": "fixed left-closed bands",
+    "bins": [
+      15,
+      25,
+      35,
+      45,
+      55,
+      65,
+      111
+    ],
+    "labels": [
+      "15–24",
+      "25–34",
+      "35–44",
+      "45–54",
+      "55–64",
+      "65+"
+    ],
+    "raw_age_retained": false
+  },
+  "phone_access_tier": {
+    "source": [
+      "con1",
+      "con9"
+    ],
+    "routing_policy": "ownership determines no-phone and nonresponse states; type is used only for owners"
+  },
+  "internet_engagement_level": {
+    "models": [
+      "model2"
+    ],
+    "source": [
+      "internet_use",
+      "con26"
+    ],
+    "routing_policy": "non-users receive an explicit no-recent-use state; owner frequency is preserved"
+  },
+  "data_purchase_pattern": {
+    "models": [
+      "model2"
+    ],
+    "source": [
+      "internet_use",
+      "con27",
+      "con28"
+    ],
+    "routing_policy": "non-users, non-purchasers, and purchase frequency are distinct states"
+  },
+  "excluded_engineering": {
+    "online_activity_breadth": "moderate temporal/conceptual overlap and response burden",
+    "digital_access_score": "arbitrary weighting, redundancy, and reduced explainability"
+  }
+}

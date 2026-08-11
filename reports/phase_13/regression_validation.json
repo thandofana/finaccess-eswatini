@@ -1,0 +1,39 @@
+{
+  "generated_at_utc": "2026-08-11T13:44:22.501702+00:00",
+  "status": "PASS",
+  "checks": {
+    "python_project_tests": {
+      "passed": 101,
+      "failed": 0
+    },
+    "deployment_backend_tests": {
+      "passed": 4,
+      "failed": 0
+    },
+    "frontend_production_dependency_vulnerabilities": 0,
+    "frontend_lint": "PASS",
+    "frontend_production_build": "PASS",
+    "frontend_rendered_routes": {
+      "passed": 5,
+      "failed": 0
+    },
+    "executed_notebooks": {
+      "passed": 13,
+      "failed": 0
+    },
+    "public_deployment_checks": {
+      "passed": 15,
+      "failed": 0
+    }
+  },
+  "commands": [
+    "python -m unittest discover -s tests -q",
+    "python -m unittest discover -s frontend/backend/tests -q",
+    "npm audit --omit=dev",
+    "npm run lint",
+    "npm run build",
+    "node --test tests/rendered-html.test.mjs",
+    "scripts/execute_notebooks.ps1",
+    "python -m finaccess_eswatini.phase13_portfolio"
+  ]
+}

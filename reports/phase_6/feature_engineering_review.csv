@@ -1,0 +1,13 @@
+model,engineered_feature,source_variables,decision,leakage_risk,uses_target,learns_from_full_sample,rationale
+model1,age_group,age,RETAIN,LOW,False,False,Fixed domain bands capture interpretable non-linearity; raw age is removed to avoid redundant explanations.
+model1,phone_access_tier,con1;con9,RETAIN,LOW,False,False,"Combines phone ownership and routed phone type into one truthful, assessment-ready access state."
+model1,internet_engagement_level,internet_use;con26,EXCLUDE_MODEL_SCOPE,LOW_WITH_TEMPORAL_NOTE,False,False,Retained only for Model 2; recent internet engagement is relevant digital context but overlaps the target observation period.
+model1,data_purchase_pattern,internet_use;con27;con28,EXCLUDE_MODEL_SCOPE,LOW_WITH_TEMPORAL_NOTE,False,False,Retained only for Model 2 as non-financial digital-access context with routing consolidated explicitly.
+model1,online_activity_breadth,con30a;con30b;con30c;con30d;con30e;con30g;con30h,EXCLUDE,MODERATE,False,False,"Recent mobile activities overlap the mobile-money target period, add seven-question burden, and may encode unstable behavioural intensity."
+model1,digital_access_score,internet_use;con1;con9;con11;con12;con14;con16;con18,EXCLUDE,LOW_BUT_REDUNDANT,False,False,"An additive score would impose arbitrary equal weights, hide routing, double-count inputs, and weaken SHAP interpretability."
+model2,age_group,age,RETAIN,LOW,False,False,Fixed domain bands capture interpretable non-linearity; raw age is removed to avoid redundant explanations.
+model2,phone_access_tier,con1;con9,RETAIN,LOW,False,False,"Combines phone ownership and routed phone type into one truthful, assessment-ready access state."
+model2,internet_engagement_level,internet_use;con26,RETAIN,LOW_WITH_TEMPORAL_NOTE,False,False,Retained only for Model 2; recent internet engagement is relevant digital context but overlaps the target observation period.
+model2,data_purchase_pattern,internet_use;con27;con28,RETAIN,LOW_WITH_TEMPORAL_NOTE,False,False,Retained only for Model 2 as non-financial digital-access context with routing consolidated explicitly.
+model2,online_activity_breadth,con30a;con30b;con30c;con30d;con30e;con30g;con30h,EXCLUDE,MODERATE,False,False,"Recent mobile activities overlap the mobile-money target period, add seven-question burden, and may encode unstable behavioural intensity."
+model2,digital_access_score,internet_use;con1;con9;con11;con12;con14;con16;con18,EXCLUDE,LOW_BUT_REDUNDANT,False,False,"An additive score would impose arbitrary equal weights, hide routing, double-count inputs, and weaken SHAP interpretability."

@@ -1,0 +1,956 @@
+{
+  "phase": 1,
+  "generated_at_utc": "2026-08-11T13:29:10.740572+00:00",
+  "source": {
+    "path": "data/raw/Findex_Microdata_2025_updateEswatini.csv",
+    "size_bytes": 410650,
+    "sha256": "4968eaa568df1ddf8d5fadea39f4797d1bdecc2c3f941546936a200ce4bc210c",
+    "encoding": "utf-8-sig"
+  },
+  "shape": {
+    "rows": 1051,
+    "columns": 199
+  },
+  "structure": {
+    "delimiter": ",",
+    "row_width_counts": {
+      "199": 1051
+    },
+    "blank_header_positions": [],
+    "duplicate_headers": []
+  },
+  "targets": {
+    "account_fin": {
+      "present": true,
+      "position": 14,
+      "missing_count": 0,
+      "observed_values": [
+        "0",
+        "1"
+      ],
+      "distribution": {
+        "0": 514,
+        "1": 537
+      },
+      "valid_binary_0_1": true,
+      "unweighted_positive_rate": 0.510941960038059
+    },
+    "account_mob": {
+      "present": true,
+      "position": 15,
+      "missing_count": 0,
+      "observed_values": [
+        "0",
+        "1"
+      ],
+      "distribution": {
+        "0": 440,
+        "1": 611
+      },
+      "valid_binary_0_1": true,
+      "unweighted_positive_rate": 0.5813510941960038
+    }
+  },
+  "duplicates": {
+    "exact_duplicate_groups": 0,
+    "duplicate_rows_excluding_first": 0,
+    "rows_in_duplicate_groups": 0,
+    "duplicate_identifier_values": 0,
+    "duplicate_profiles_excluding_identifier_groups": 1,
+    "duplicate_profiles_excluding_identifier_rows_excluding_first": 1
+  },
+  "missingness": {
+    "total_blank_cells": 102514,
+    "total_cells": 209149,
+    "all_missing_columns": [
+      "fin11_0",
+      "fin11_1",
+      "fin11_2",
+      "fin11a",
+      "fin11b",
+      "fin11c",
+      "fin11d",
+      "fin11e",
+      "fin11f",
+      "fin36a",
+      "fin41a",
+      "con15",
+      "fin50",
+      "fin51"
+    ],
+    "columns_at_least_50_pct_missing": [
+      "fin3",
+      "fin4",
+      "fin5",
+      "fin6",
+      "fin7",
+      "fin8",
+      "fin9a",
+      "fin9b",
+      "fin10",
+      "fin11_0",
+      "fin11_1",
+      "fin11_2",
+      "fin11a",
+      "fin11b",
+      "fin11c",
+      "fin11d",
+      "fin11e",
+      "fin11f",
+      "fin13_1",
+      "fin13f_1",
+      "fin14a",
+      "fin14b",
+      "fin14c",
+      "fin14d",
+      "fin14e",
+      "fin15",
+      "fin16",
+      "fin17d",
+      "fin17e",
+      "fin17f",
+      "fin18",
+      "fin21",
+      "fin22c",
+      "fin22g",
+      "fin22h",
+      "fin23",
+      "fin24d1",
+      "fin24d2",
+      "fin24d3",
+      "fin25e3",
+      "fin27",
+      "fin28",
+      "fin31c",
+      "fin31d",
+      "fin33",
+      "fin34a",
+      "fin34b",
+      "fin34c",
+      "fin34d",
+      "fin35",
+      "fin36",
+      "fin36a",
+      "fin39a",
+      "fin39b",
+      "fin39c",
+      "fin39d",
+      "fin40",
+      "fin41",
+      "fin41a",
+      "fin43a",
+      "fin43b",
+      "fin43c",
+      "fin43d",
+      "fin44",
+      "con2a",
+      "con2b",
+      "con2c",
+      "con2d",
+      "con2e",
+      "con2f",
+      "con2g",
+      "con3",
+      "con4",
+      "con5",
+      "con6",
+      "con7",
+      "con8",
+      "con10",
+      "con13",
+      "con15",
+      "con19",
+      "con22",
+      "con25",
+      "con29",
+      "con31a",
+      "con31b",
+      "con31c",
+      "con31d",
+      "con31e",
+      "con31f",
+      "con31g",
+      "con31h",
+      "con32",
+      "fin48a",
+      "fin48b",
+      "fin48c",
+      "fin48d",
+      "fin48e",
+      "fin48f",
+      "fin49a",
+      "fin49b",
+      "fin49c",
+      "fin49d",
+      "fin49e",
+      "fin49f",
+      "fin50",
+      "fin51"
+    ],
+    "columns_at_least_75_pct_missing": [
+      "fin7",
+      "fin11_0",
+      "fin11_1",
+      "fin11_2",
+      "fin11a",
+      "fin11b",
+      "fin11c",
+      "fin11d",
+      "fin11e",
+      "fin11f",
+      "fin13_1",
+      "fin13f_1",
+      "fin22g",
+      "fin22h",
+      "fin25e3",
+      "fin27",
+      "fin31c",
+      "fin31d",
+      "fin34c",
+      "fin34d",
+      "fin36a",
+      "fin39a",
+      "fin39b",
+      "fin39c",
+      "fin39d",
+      "fin40",
+      "fin41",
+      "fin41a",
+      "fin43a",
+      "fin43b",
+      "fin43c",
+      "fin43d",
+      "fin44",
+      "con2a",
+      "con2b",
+      "con2c",
+      "con2d",
+      "con2e",
+      "con2f",
+      "con2g",
+      "con3",
+      "con4",
+      "con5",
+      "con6",
+      "con7",
+      "con8",
+      "con13",
+      "con15",
+      "con29",
+      "fin48a",
+      "fin48b",
+      "fin48c",
+      "fin48d",
+      "fin48e",
+      "fin48f",
+      "fin49a",
+      "fin49b",
+      "fin49c",
+      "fin49d",
+      "fin49e",
+      "fin49f",
+      "fin50",
+      "fin51"
+    ],
+    "columns_at_least_90_pct_missing": [
+      "fin11_0",
+      "fin11_1",
+      "fin11_2",
+      "fin11a",
+      "fin11b",
+      "fin11c",
+      "fin11d",
+      "fin11e",
+      "fin11f",
+      "fin13f_1",
+      "fin22g",
+      "fin22h",
+      "fin31c",
+      "fin31d",
+      "fin34c",
+      "fin34d",
+      "fin36a",
+      "fin39c",
+      "fin39d",
+      "fin41a",
+      "fin43c",
+      "fin43d",
+      "con5",
+      "con6",
+      "con7",
+      "con8",
+      "con13",
+      "con15",
+      "con29",
+      "fin50",
+      "fin51"
+    ]
+  },
+  "types": {
+    "integer": 181,
+    "string": 3,
+    "float": 1,
+    "empty": 14
+  },
+  "cardinality": {
+    "constant_or_all_missing_columns": [
+      "year",
+      "economy",
+      "economycode",
+      "regionwb",
+      "pop_adult",
+      "urbanicity",
+      "fin11_0",
+      "fin11_1",
+      "fin11_2",
+      "fin11a",
+      "fin11b",
+      "fin11c",
+      "fin11d",
+      "fin11e",
+      "fin11f",
+      "fin36a",
+      "fin41a",
+      "con15",
+      "fin50",
+      "fin51"
+    ],
+    "constant_non_missing_columns": [
+      "year",
+      "economy",
+      "economycode",
+      "regionwb",
+      "pop_adult",
+      "urbanicity"
+    ],
+    "unique_non_missing_columns": [
+      "wpid_random"
+    ],
+    "binary_0_1_columns": [
+      "account_fin",
+      "account_mob",
+      "account",
+      "dig_account",
+      "borrowed",
+      "saved",
+      "merchantpay_dig",
+      "anydigpayment",
+      "internet_use"
+    ]
+  },
+  "preliminary_identifier_metadata_review": [
+    {
+      "column": "year",
+      "preliminary_role": "METADATA",
+      "rationale": "Survey-year metadata; constant or near-constant in a single-wave extract.",
+      "unique_count": "1",
+      "missing_pct": "0.0"
+    },
+    {
+      "column": "economy",
+      "preliminary_role": "METADATA",
+      "rationale": "Economy label metadata; expected to be constant in an Eswatini-only extract.",
+      "unique_count": "1",
+      "missing_pct": "0.0"
+    },
+    {
+      "column": "economycode",
+      "preliminary_role": "METADATA",
+      "rationale": "Economy code metadata; expected to be constant in a single-economy extract.",
+      "unique_count": "1",
+      "missing_pct": "0.0"
+    },
+    {
+      "column": "regionwb",
+      "preliminary_role": "METADATA",
+      "rationale": "World Bank region metadata; expected to be constant here.",
+      "unique_count": "1",
+      "missing_pct": "0.0"
+    },
+    {
+      "column": "pop_adult",
+      "preliminary_role": "METADATA",
+      "rationale": "Population-level metadata, not a respondent characteristic.",
+      "unique_count": "1",
+      "missing_pct": "0.0"
+    },
+    {
+      "column": "wpid_random",
+      "preliminary_role": "IDENTIFIER",
+      "rationale": "Respondent identifier candidate; uniqueness must be checked.",
+      "unique_count": "1051",
+      "missing_pct": "0.0"
+    },
+    {
+      "column": "wgt",
+      "preliminary_role": "METADATA",
+      "rationale": "Survey weight; required for representative estimates but not an ordinary predictor.",
+      "unique_count": "567",
+      "missing_pct": "0.0"
+    }
+  ],
+  "candidate_special_missing_tokens": [
+    {
+      "column": "age",
+      "token": "97",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "age",
+      "token": "99",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con10",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 4
+    },
+    {
+      "column": "con10",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con11",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 3
+    },
+    {
+      "column": "con11",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con12",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 7
+    },
+    {
+      "column": "con14",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 3
+    },
+    {
+      "column": "con14",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con16",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con17",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 24
+    },
+    {
+      "column": "con17",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 5
+    },
+    {
+      "column": "con18",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 4
+    },
+    {
+      "column": "con18",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 2
+    },
+    {
+      "column": "con20",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 3
+    },
+    {
+      "column": "con20",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con21",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 4
+    },
+    {
+      "column": "con21",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 2
+    },
+    {
+      "column": "con23",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 6
+    },
+    {
+      "column": "con23",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 3
+    },
+    {
+      "column": "con25",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 5
+    },
+    {
+      "column": "con25",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con26",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 7
+    },
+    {
+      "column": "con26",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con27",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 2
+    },
+    {
+      "column": "con28",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 7
+    },
+    {
+      "column": "con29",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con2a",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con2a",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 2
+    },
+    {
+      "column": "con2b",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 3
+    },
+    {
+      "column": "con2b",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con2c",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 7
+    },
+    {
+      "column": "con2c",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 2
+    },
+    {
+      "column": "con2d",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con2d",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con2e",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con2f",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 3
+    },
+    {
+      "column": "con2f",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 2
+    },
+    {
+      "column": "con2g",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con3",
+      "token": "97",
+      "kind": "numeric_candidate",
+      "count": 5
+    },
+    {
+      "column": "con3",
+      "token": "98",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con3",
+      "token": "99",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con30a",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con30a",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 2
+    },
+    {
+      "column": "con30b",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 3
+    },
+    {
+      "column": "con30c",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con30c",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con30d",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 2
+    },
+    {
+      "column": "con30d",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con30e",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 2
+    },
+    {
+      "column": "con30f",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 2
+    },
+    {
+      "column": "con30f",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 2
+    },
+    {
+      "column": "con30g",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 6
+    },
+    {
+      "column": "con30g",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con30h",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 2
+    },
+    {
+      "column": "con31a",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 3
+    },
+    {
+      "column": "con31a",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con31b",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 21
+    },
+    {
+      "column": "con31b",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 3
+    },
+    {
+      "column": "con31c",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 21
+    },
+    {
+      "column": "con31c",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 2
+    },
+    {
+      "column": "con31d",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 6
+    },
+    {
+      "column": "con31d",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con31e",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 10
+    },
+    {
+      "column": "con31e",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 2
+    },
+    {
+      "column": "con31f",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 18
+    },
+    {
+      "column": "con31f",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 2
+    },
+    {
+      "column": "con31g",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 4
+    },
+    {
+      "column": "con31g",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 2
+    },
+    {
+      "column": "con31h",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 8
+    },
+    {
+      "column": "con31h",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 3
+    },
+    {
+      "column": "con32",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 23
+    },
+    {
+      "column": "con32",
+      "token": "97",
+      "kind": "numeric_candidate",
+      "count": 5
+    },
+    {
+      "column": "con32",
+      "token": "98",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con32",
+      "token": "99",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con4",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con4",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 2
+    },
+    {
+      "column": "con5",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 2
+    },
+    {
+      "column": "con7",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 1
+    },
+    {
+      "column": "con8",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 2
+    },
+    {
+      "column": "con9",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 6
+    },
+    {
+      "column": "con9",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 3
+    },
+    {
+      "column": "fin24",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 128
+    },
+    {
+      "column": "fin24",
+      "token": "9",
+      "kind": "numeric_candidate",
+      "count": 7
+    },
+    {
+      "column": "fin45",
+      "token": "8",
+      "kind": "numeric_candidate",
+      "count": 7
+    }
+  ],
+  "basic_plausibility_checks": [
+    {
+      "column": "age",
+      "check": "expected range 15 to 110",
+      "flagged_count": 0,
+      "status": "PASS",
+      "assumption": "Adult survey plausibility bound, not a recoding rule."
+    },
+    {
+      "column": "inc_q",
+      "check": "expected range 1 to 5",
+      "flagged_count": 0,
+      "status": "PASS",
+      "assumption": "Expected income-quintile coding."
+    },
+    {
+      "column": "account_fin",
+      "check": "expected range 0 to 1",
+      "flagged_count": 0,
+      "status": "PASS",
+      "assumption": "Required binary target."
+    },
+    {
+      "column": "account_mob",
+      "check": "expected range 0 to 1",
+      "flagged_count": 0,
+      "status": "PASS",
+      "assumption": "Required binary target."
+    },
+    {
+      "column": "wgt",
+      "check": "survey weight must be positive",
+      "flagged_count": 0,
+      "status": "PASS",
+      "assumption": "Non-positive survey weights are not analytically usable."
+    },
+    {
+      "column": "female",
+      "check": "observed indicator codes ['1', '2']",
+      "flagged_count": 0,
+      "status": "PASS",
+      "assumption": "Indicator code set is structurally plausible; semantic labels require the data dictionary."
+    },
+    {
+      "column": "emp_in",
+      "check": "observed indicator codes ['1', '2']",
+      "flagged_count": 0,
+      "status": "PASS",
+      "assumption": "Indicator code set is structurally plausible; semantic labels require the data dictionary."
+    }
+  ],
+  "scope_note": "Only obvious metadata/identifier fields are flagged in Phase 1. Full variable meaning, feature eligibility, leakage decisions, and special-code interpretation belong to Phase 2."
+}

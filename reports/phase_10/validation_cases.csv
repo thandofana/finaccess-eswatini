@@ -1,0 +1,9 @@
+case,expected_status,actual_status,passed
+health_ready,200,200,True
+valid_assessment,200,200,True
+invalid_category,422,422,True
+inconsistent_internet_routing,422,422,True
+missing_field,422,422,True
+extra_field,422,422,True
+inconsistent_phone_routing,422,422,True
+openapi_contract,200,200,True
