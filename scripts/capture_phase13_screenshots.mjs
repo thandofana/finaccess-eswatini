@@ -117,9 +117,9 @@ async function main() {
             const rect = element.getBoundingClientRect();
             const padding = 16;
             return {
-              x: Math.max(0, rect.left + window.scrollX - padding),
+              x: 0,
               y: Math.max(0, rect.top + window.scrollY - padding),
-              width: Math.min(document.documentElement.scrollWidth, rect.width + padding * 2),
+              width: document.documentElement.scrollWidth,
               height: rect.height + padding * 2,
               scale: 1,
             };
@@ -158,7 +158,8 @@ async function main() {
 
     await clickButton("Continue");
     await clickButton("Continue");
-    await clickButton("Generate assessment");
+    await clickButton("Continue");
+    await clickButton("Run model assessment");
     const completed = await evaluate(`new Promise((resolve) => {
       const deadline = Date.now() + 60000;
       const check = () => {
