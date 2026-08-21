@@ -156,15 +156,21 @@ The finished product combines analytical evidence, both models, and their explan
 
 ### Dashboard overview
 
-![FinAccess Eswatini dashboard](reports/phase_13/screenshots/01_overview.png)
+<p align="center">
+  <img src="reports/phase_13/screenshots/01_overview.png" alt="FinAccess Eswatini dashboard" width="80%">
+</p>
 
 ### Prediction interface
 
-![Financial Access Assessment](reports/phase_13/screenshots/02_assessment.png)
+<p align="center">
+  <img src="reports/phase_13/screenshots/02_assessment.png" alt="Financial Access Assessment" width="80%">
+</p>
 
 ### Model output example
 
-![Financial inclusion and mobile-money prediction output](reports/phase_13/screenshots/03_assessment_results.png)
+<p align="center">
+  <img src="reports/phase_13/screenshots/03_assessment_results.png" alt="Financial inclusion and mobile-money prediction output" width="80%">
+</p>
 
 One submitted profile is validated once, routed through two separate preprocessing pipelines, scored by both models, and returned with two natural-language answers, supporting probabilities, and five model-derived factors per outcome.
 
